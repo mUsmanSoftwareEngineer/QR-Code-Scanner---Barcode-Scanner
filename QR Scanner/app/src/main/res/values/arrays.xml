@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="colors">
+        <item>#000000</item>
+        <item>#859BFF</item>
+        <item>#FFDF58</item>
+        <item>#0293B7</item>
+        <item>#EC8FD0</item>
+        <item>#91E3FD</item>
+        <item>#B3288D</item>
+        <item>#F885D2</item>
+        <item>#602E9F</item>
+        <item>#C8E265</item>
+        <item>#CB6CE7</item>
+        <item>#008136</item>
+        <item>#00999F</item>
+        <item>#00338F</item>
+        <item>#859BFF</item>
+        <item>#FFDF58</item>
+        <item>#0293B7</item>
+        <item>#EC8FD0</item>
+        <item>#91E3FD</item>
+        <item>#B3288D</item>
+        <item>#F885D2</item>
+        <item>#602E9F</item>
+        <item>#C8E265</item>
+        <item>#CB6CE7</item>
+        <item>#008136</item>
+        <item>#00999F</item>
+        <item>#00338F</item>
+        <item>#859BFF</item>
+        <item>#FFDF58</item>
+        <item>#0293B7</item>
+        <item>#EC8FD0</item>
+        <item>#91E3FD</item>
+        <item>#B3288D</item>
+        <item>#F885D2</item>
+        <item>#602E9F</item>
+        <item>#C8E265</item>
+        <item>#CB6CE7</item>
+        <item>#008136</item>
+        <item>#00999F</item>
+        <item>#00338F</item>
+        <item>#859BFF</item>
+        <item>#FFDF58</item>
+        <item>#0293B7</item>
+        <item>#EC8FD0</item>
+        <item>#91E3FD</item>
+<!--        <item>#B3288D</item>-->
+
+    </string-array>
+
+
+    <string-array name="colorsRecycler">
+        <item>#000000</item>
+        <item>#859BFF</item>
+        <item>#FFD00A</item>
+        <item>#00CBFD</item>
+        <item>#EF00A7</item>
+        <item>#062FFF</item>
+        <item>#AE2287</item>
+        <item>#951111</item>
+        <item>#651DBF</item>
+        <item>#31C13F</item>
+        <item>#28D8AF</item>
+        <item>#008136</item>
+        <item>#00999F</item>
+    </string-array>
+
+    <string-array name="local">
+        <item>English</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Русский</item>
+        <item>Protugese</item>
+        <item>Español</item>
+        <item>عربي</item>
+        <item>Dutch</item>
+        <item>Türk</item>
+        <item>ישראל</item>
+        <item>中國人</item>
+    </string-array>
+
+
+</resources>

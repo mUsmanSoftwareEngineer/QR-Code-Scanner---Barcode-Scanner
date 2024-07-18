@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topCard"
+        android:layout_alignParentStart="false"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/allowCameraUseBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/allowCameraUse"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/topCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:cardBackgroundColor="@color/colorMainBg"
+        app:cardCornerRadius="6dp"
+        android:layout_above="@+id/zoomLayout"
+        android:layout_marginBottom="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:visibility="visible"
+            android:weightSum="3">
+
+
+            <ImageView
+                android:id="@+id/flash"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/flash_off_scanner"
+                app:tint="@color/whiteLight"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/gallery"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/gallery_scanner"
+                app:tint="@color/whiteLight"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/camera_switch_scanner"
+                app:tint="@color/whiteLight"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/help"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/help_3"
+                app:tint="@color/whiteLight"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/zoomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_add_circle_24"
+            tools:ignore="ContentDescription" />
+
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/seekBarZoom"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            app:isb_max="5"
+            app:isb_min="0"
+            app:isb_only_thumb_draggable="false"
+            app:isb_progress="0"
+            app:isb_seek_smoothly="true"
+            app:isb_show_indicator="none"
+            app:isb_thumb_color="@color/darkMainColor"
+            app:isb_thumb_size="15dp"
+            app:isb_track_progress_color="@color/darkMainColor"
+            app:isb_track_progress_size="2dp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_remove_circle_24"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

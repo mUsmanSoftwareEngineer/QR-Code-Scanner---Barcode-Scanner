@@ -1,0 +1,252 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+
+
+
+    <!-- TODO Change app name and splash text from here -->
+
+
+    <string name="app_name">סורק קוד QR &amp; מחולל</string>
+
+    <string name="menu_scan">סריקה</string>
+    <string name="menu_generate">צור קוד QR</string>
+    <string name="menu_history">היסטוריה</string>
+    <string name="menu_setting">הגדרה</string>
+
+    <string name="rate_menu_title">נא לדרג את האפליקציה</string>
+    <string name="rate_menu_message">האם אתה אוהב את האפליקציה?</string>
+    <string name="rate_menu_yes_btn">כן</string>
+    <string name="rate_menu_no_btn">לא</string>
+    <string name="rate_menu_maybe_btn">דרג מאוחר יותר</string>
+
+    <string name="share">התקן את אפליקציית SuperB Scanner מ:</string>
+    <string name="tapAgain">הקש שוב כדי לצאת!</string>
+
+    <string name="allowCameraUse">אפשר שימוש במצלמה</string>
+
+    <string name="permission_not_granted">הרשאה לא ניתנה!</string>
+
+
+
+    <string name="type_here_text">הקלד טקסט</string>
+    <string name="type_here_phone">הזן מספר טלפון</string>
+    <string name="type_here_email">הזן דוא"ל</string>
+    <string name="type_here_wifi_ssid">הזן SSID/שם רשת</string>
+    <string name="type_here_wifi_password">הזן סיסמה</string>
+
+    <string name="copied">הועתק ללוח.</string>
+    <string name="result">תוצאה</string>
+    <string name="scanned_result">תוצאה סרוקה:</string>
+    <string name="scanned_type_qrcode">קוד QR:</string>
+    <string name="scanned_type_barcode">ברקוד:</string>
+
+    <string name="saved_to">נשמר ב:\n</string>
+    <string name="no_history">ההיסטוריה ריקה</string>
+
+    <string name="action">פעולה</string>
+    <string name="date">תאריך</string>
+
+
+    <string name="result_text">טקסט:</string>
+    <string name="result_url">כתובת אתר:</string>
+    <string name="result_youtube">YouTube:</string>
+    <string name="result_phone">טלפון:</string>
+    <string name="result_email">אימייל:</string>
+    <string name="result_wifi">Wi-Fi:</string>
+    <string name="result_sms">SMS:</string>
+    <string name="result_vcard">צור קשר:</string>
+    <string name="result_geo">מיקום גיאוגרפי:</string>
+    <string name="result_event">אירוע:</string>
+    <string name="result_facebook">פייסבוק:</string>
+    <string name="result_twitter">טוויטר:</string>
+    <string name="result_instagram">אינסטגרם:</string>
+    <string name="result_linkdein">Linkdein:</string>
+    <string name="result_whatsapp">Whatsapp:</string>
+
+    <string name="delete_message_item">האם אתה בטוח שברצונך למחוק פריט זה?</string>
+    <string name="delete_message_all">האם אתה בטוח שברצונך לנקות את הרשימה?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+
+    <string name="error_restart_app">אירעה שגיאה, אנא הפעל מחדש את האפליקציה</string>
+    <string name="error_unexpected">התרחשה שגיאה בלתי צפויה</string>
+    <string name="error_file">הקובץ לא נמצא</string>
+    <string name="error_unknown">שגיאה לא ידועה</string>
+
+    <string name="settings_autofocus">מיקוד אוטומטי</string>
+    <string name="settings_vibrate">רטט</string>
+    <string name="settings_auto_links">פתח את כתובת האתר באופן אוטומטי</string>
+    <string name="general">כללי</string>
+    <string name="other">אחר</string>
+    <string name="rate_us">דרג אותנו</string>
+    <string name="share_app">שתף אפליקציה</string>
+
+
+
+
+
+    <string name="version">גרסה 1.0.14</string>
+    <string name="privacy">מדיניות פרטיות</string>
+    <!-- TODO: הסר או שנה את טקסט מציין המיקום הזה -->
+    <string name="app_permission">הרשאות אפליקציה</string>
+    <string name="read_storage">1. Read_External_Storage: </string>
+    <string name="read">קרא את תמונת קוד ה-QR שמירת כדי לסרוק קוד QR</string>
+    <string name="write_storage">2. Write_External_Storage: </string>
+    <string name="write">שמור תמונת קוד QR באחסון פנימי</string>
+    <string name="vibrate_permissions">4. רעידות: </string>
+    <string name="vibrate_per">רטט התקן בסריקה</string>
+    <string name="camera_permission">3. מצלמה: </string>
+    <string name="camera">סרוק קוד QR</string>
+    <string name="wifi_state_permission">5. ACCESS_WIFI_STATE: </string>
+    <string name="wifi">התחבר, התנתק מ-wifi, גישה מלאה לרשת, הצג חיבורי רשת, הצג חיבורי wifi</string>
+    <string name="contacts_permissions">6. אנשי קשר: </string>
+    <string name="contact">קבל אנשי קשר ליצירת קוד QR עם סוג אנשי קשר</string>
+    <string name="account_permissions">7. חשבון: </string>
+    <string name="account">קבל חשבון ליצירת קוד QR עם דוא"ל</string>
+    <string name="got_it">הבנתי!</string>
+    <string name="rate_me_5">דרג אותי ב-5 כוכבים</string>
+    <string name="generate_from_source">צור ממקור נתונים</string>
+
+
+
+    <string name="beginTime">זמן התחלה</string>
+    <string name="endTime">זמן סיום</string>
+    <string name="content">תוכן</string>
+    <string name="wifi_ssid">שם Wifi (SSID)</string>
+    <string name="security">סוג אבטחה</string>
+    <string name="wifi_password">סיסמת Wifi</string>
+    <string name="create">צור</string>
+    <string name="scan">סריקה</string>
+    <string name="history">היסטוריה</string>
+    <string name="templates">תבניות</string>
+    <string name="fragmentName">FragmentName</string>
+    <string name="createQR">צור QR</string>
+    <string name="QRTEXT">טקסט QR</string>
+    <string name="QRCat">קטגוריית QR</string>
+    <string name="recipient">נמען</string>
+    <string name="message">הודעה</string>
+    <string name="password">סיסמה</string>
+    <string name="hidden">רשת נסתרת</string>
+    <string name="company">חברה</string>
+    <string name="job">תפקיד</string>
+    <string name="address">כתובת</string>
+    <string name="type_here_memo">תזכיר</string>
+    <string name="edit">ערוך</string>
+    <string name="color">צבע</string>
+    <string name="logo">לוגו</string>
+    <string name="background">רקע</string>
+    <string name="editor">עורך</string>
+    <string name="shareImg">שתף</string>
+    <string name="QRCode">קוד QR</string>
+    <string name="resultScan">סריקת תוצאות</string>
+    <string name="vibrate">רטט</string>
+    <string name="username">הזן שם משתמש</string>
+    <string name="type_whatsapp">הזן מספר</string>
+    <string name="scanned">נסרק\n בהצלחה</string>
+    <string name="localize_app">לוקליזציה</string>
+
+
+
+    <string name="md_choose_label">בחר</string>
+    <string name="choose_language">בחר שפה</string>
+    <string name="loading_ad">טוען מודעה</string>
+    <string name="remove_customization">האם אתה בטוח שברצונך לצאת?</string>
+    <string name="twitter_url">הזן את כתובת האתר של Twitter</string>
+    <string name="linkdein_url">הזן את כתובת האתר של Linkdein</string>
+    <string name="enter_text_without_special_characters">הזן טקסט ללא תווים מיוחדים</string>
+    <string name="enter_text_in_uppercase_without_special_characters">טקסט באותיות רישיות ללא תווים מיוחדים</string>
+    <string name="only_digits">ספרות בלבד</string>
+    <string name="only_even">מספר הספרות חייב להיות \n מספר זוגי</string>
+    <string name="seven_digit_with_checksum">7 ספרות עם ספרת סכום ביקורת אחת</string>
+    <string name="twelve_digit_with_checksum">12 ספרות עם ספרת ביקורת אחת</string>
+    <string name="eleven_digit_with_checksum">11 ספרות עם סכום ביקורת אחד</string>
+    <string name="barcode">ברקוד</string>
+    <string name="product_name">שם</string>
+    <string name="product_code">הזן את קוד המוצר</string>
+    <string name="product_price">הזן מחיר מוצר</string>
+    <string name="book_name">הזן את שם הספר</string>
+    <string name="book_code">הזן את קוד הספר</string>
+    <string name="book_price">הזן את מחיר הספר</string>
+    <string name="watch_ad">מודעת צפייה</string>
+    <string name="watch_ad_txt">צפה בתבניות ביטול נעילה של סרטון</string>
+    <string name="congratulations">מזל טוב</string>
+    <string name="new_templates_unlocked">תבניות חדשות בוטלו</string>
+    <string name="okay">בסדר</string>
+    <string name="no_connection_found">לא נמצא חיבור</string>
+    <string name="please_try_again_later">אנא נסה שוב מאוחר יותר</string>
+    <string name="app_name_print">QRCODE</string>
+    <string name="welcome_qr_txt">ברוך הבא \nאל QRcode</string>
+
+
+
+
+    <string name="txt_generate">טקסט</string>
+    <string name="contact_generate">צור קשר</string>
+    <string name="url_generate">כתובת אתר</string>
+    <string name="wifi_generate">Wifi</string>
+    <string name="email_generate">דוא"ל</string>
+    <string name="sms_generate">SMS</string>
+    <string name="location_generate">מיקום</string>
+    <string name="call_generate">התקשר</string>
+    <string name="event_generate">אירוע</string>
+    <string name="txt_website">אתר</string>
+    <string name="phone_generate">טלפון</string>
+    <string name="scanned_history">היסטוריה סרוקה</string>
+    <string name="created_history">היסטוריה נוצרה</string>
+
+
+
+    <string name="ad_attribution">מודעה</string>
+    <string name="adsTxt">מודעות ממומנות</string>
+    <string name="help">עזרה ומשוב</string>
+    <string name="supported_codes">קודים נתמכים</string>
+    <string name="tips_for_scanning">טיפים לסריקה</string>
+    <string name="scanning_does_not_work">הסריקה לא עובדת</string>
+    <string name="scanning_low_budget">סריקה עם טלפונים בתקציב נמוך</string>
+    <string name="scanned_not_work_txt"> סריקה עם טלפונים בתקציב נמוך יכולה להיות מאוד
+קשה או אפילו בלתי אפשרי בגלל מצלמה נמוכה יותר
+איכות.\n\n
+אם אינך מצליח לסרוק, אנא נסה לצלם תמונה
+עם אפליקציית המצלמה הרגילה שלך.\n\n
+לאחר מכן סרוק את התמונה באמצעות:</string>
+    <string name="scan_img">סרוק תמונה</string>
+    <string name="good_luck">בהצלחה</string>
+    <string name="QRImg">תמונת QR</string>
+    <string name="qrCodEMaker">יוצר ברקוד QRCode</string>
+    <string name="supportedQR">14+ סוגי קוד QR נתמכים</string>
+    <string name="supportedBarCode">9+ סוגי ברקוד נתמכים</string>
+    <string name="readHelp">קרא את העזרה של האפליקציה כדי למנוע \nטעויות נפוצות בזמן סריקה</string>
+    <string name="name">שם</string>
+    <string name="phone_number">מספר טלפון</string>
+    <string name="email">אימייל</string>
+    <string name="network">שם רשת (SSID)</string>
+    <string name="recipient_email">דוא"ל של נמען</string>
+    <string name="subject">נושא</string>
+    <string name="body">גוף</string>
+    <string name="longitude">קו אורך</string>
+    <string name="latitude">רוחב</string>
+    <string name="event_name">שם האירוע</string>
+    <string name="location">מיקום</string>
+    <string name="description">תיאור</string>
+    <string name="price">מחיר</string>
+    <string name="book_name_1">שם הספר</string>
+    <string name="book_code_1">קוד ספר</string>
+    <string name="book_price_1">מחיר הספר</string>
+    <string name="facebook_url">הזן כתובת אתר של פייסבוק</string>
+    <string name="solid_color">צבע אחיד</string>
+    <string name="dislike_it">לא אוהב את זה</string>
+    <string name="rate_stars">דרג אותי \n5 כוכבים</string>
+    <string name="no_ads">ללא מודעות</string>
+    <string name="upgrade">Go Premium</string>
+    <string name="pro_user">הפוך למשתמש מקצוען</string>
+    <string name="premium">Premium</string>
+    <string name="basic">בסיסי</string>
+    <string name="set_logo_in_center">הגדר לוגו במרכז</string>
+    <string name="one_time_purchase">><![CDATA[/רכישה חד פעמית ומבצע לכל החיים]]></string>
+    <string name="agree_txt">בהמשך אתה מסכים למדיניות הפרטיות שלנו. זוהי הצעה לכל החיים ואתה יכול לקנות פעם אחת.</string>
+    <string name="skip">דלג</string>
+
+    <string name="follow_scan_tips">עקוב אחר עצות הסריקה</string>
+    <string name="restore">Restore</string>
+
+</resources>

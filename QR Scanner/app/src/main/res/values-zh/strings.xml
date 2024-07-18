@@ -1,0 +1,238 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- TODO Change app name and splash text from here -->
+
+
+    <string name="app_name">二維碼掃描儀&amp;生成器</string>
+
+    <string name="menu_scan">掃描</string>
+    <string name="menu_generate">創建二維碼</string>
+    <string name="menu_history">歷史</string>
+    <string name="menu_setting">設置</string>
+
+    <string name="rate_menu_title">請給應用評分</string>
+    <string name="rate_menu_message">你喜歡這個應用嗎？</string>
+    <string name="rate_menu_yes_btn">是</string>
+    <string name="rate_menu_no_btn">否</string>
+    <string name="rate_menu_maybe_btn">稍後評分</string>
+
+    <string name="share">從以下位置安裝 SuperB Scanner 應用程序：</string>
+    <string name="tapAgain">再次點擊退出！</string>
+
+    <string name="allowCameraUse">允許使用相機</string>
+
+    <string name="permission_not_granted">權限未授予！</string>
+
+
+    <string name="type_here_text">輸入文本</string>
+    <string name="type_here_phone">輸入電話號碼</string>
+    <string name="type_here_email">輸入郵箱</string>
+    <string name="type_here_wifi_ssid">輸入SSID/網絡名稱</string>
+    <string name="type_here_wifi_password">輸入密碼</string>
+
+    <string name="copied">複製到剪貼板。</string>
+    <string name="result">結果</string>
+    <string name="scanned_result">掃描結果：</string>
+    <string name="scanned_type_qrcode">二維碼：</string>
+    <string name="scanned_type_barcode">條碼：</string>
+
+    <string name="saved_to">保存到：\n</string>
+    <string name="no_history">歷史為空</string>
+
+    <string name="action">動作</string>
+    <string name="date">日期</string>
+
+
+    <string name="result_text">文本：</string>
+    <string name="result_url">網址：</string>
+    <string name="result_youtube">YouTube:</string>
+    <string name="result_phone">電話：</string>
+    <string name="result_email">電子郵件：</string>
+    <string name="result_wifi">無線網絡：</string>
+    <string name="result_sms">短信：</string>
+    <string name="result_vcard">聯繫方式：</string>
+    <string name="result_geo">地理位置：</string>
+    <string name="result_event">事件：</string>
+    <string name="result_facebook">Facebook:</string>
+    <string name="result_twitter">推特：</string>
+    <string name="result_instagram">Instagram：</string>
+    <string name="result_linkdein">Linkdein:</string>
+    <string name="result_whatsapp">Whatsapp:</string>
+
+    <string name="delete_message_item">你確定要刪除這個項目嗎？</string>
+    <string name="delete_message_all">您確定要清除列表嗎？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <string name="error_restart_app">出現錯誤，請重啟應用</string>
+    <string name="error_unexpected">出現意外錯誤</string>
+    <string name="error_file">找不到文件</string>
+    <string name="error_unknown">未知錯誤</string>
+
+    <string name="settings_autofocus">自動對焦</string>
+    <string name="settings_vibrate">振動</string>
+    <string name="settings_auto_links">自動打開網址</string>
+    <string name="general">一般</string>
+    <string name="other">其他</string>
+    <string name="rate_us">評價我們</string>
+    <string name="share_app">分享應用</string>
+
+
+    <string name="version">版本 1.0.14</string>
+    <string name="privacy">隱私政策</string>
+    <!-- TODO: 刪除或更改此佔位符文本 -->
+    <string name="app_permission">應用權限</string>
+    <string name="read_storage">1. Read_External_Storage: </string>
+    <string name="read">讀取保存的二維碼圖片掃描二維碼</string>
+    <string name="write_storage">2. Write_External_Storage: </string>
+    <string name="write">保存二維碼圖片到內部存儲</string>
+    <string name="vibrate_permissions">4.振動：</string>
+    <string name="vibrate_per">掃描時振動設備</string>
+    <string name="camera_permission">3.相機：</string>
+    <string name="camera">掃描二維碼</string>
+    <string name="wifi_state_permission">5. ACCESS_WIFI_STATE: </string>
+    <string name="wifi">連接、斷開wifi、全網訪問、查看網絡連接、查看wifi連接</string>
+    <string name="contacts_permissions">6.聯繫人：</string>
+    <string name="contact">獲取聯繫人創建聯繫人類型二維碼</string>
+    <string name="account_permissions">7.帳號：</string>
+    <string name="account">獲取賬號創建郵箱二維碼</string>
+    <string name="got_it">知道了！</string>
+    <string name="rate_me_5">給我打 5 星</string>
+    <string name="generate_from_source">從數據源生成</string>
+
+    <string name="beginTime">開始時間</string>
+    <string name="endTime">結束時間</string>
+    <string name="content">內容</string>
+    <string name="wifi_ssid">Wifi 名稱 (SSID)</string>
+    <string name="security">安全類型</string>
+    <string name="wifi_password">無線密碼</string>
+    <string name="create">創建</string>
+    <string name="scan">掃描</string>
+    <string name="history">歷史</string>
+    <string name="templates">模板</string>
+    <string name="fragmentName">片段名稱</string>
+    <string name="createQR">創建二維碼</string>
+    <string name="QRTEXT">二維碼文本</string>
+    <string name="QRCat">二維碼類別</string>
+    <string name="recipient">收件人</string>
+    <string name="message">消息</string>
+    <string name="password">密碼</string>
+    <string name="hidden">隱藏網絡</string>
+    <string name="company">公司</string>
+    <string name="job">職位名稱</string>
+    <string name="address">地址</string>
+    <string name="type_here_memo">備忘錄</string>
+    <string name="edit">編輯</string>
+    <string name="color">顏色</string>
+    <string name="logo">標誌</string>
+    <string name="background">​​背景</string>
+    <string name="editor">編輯器</string>
+    <string name="shareImg">分享</string>
+    <string name="QRCode">二維碼</string>
+    <string name="resultScan">結果掃描</string>
+    <string name="vibrate">振動</string>
+    <string name="username">輸入用戶名</string>
+    <string name="type_whatsapp">輸入號碼</string>
+    <string name="scanned">掃描成功\n成功</string>
+    <string name="localize_app">本地化</string>
+
+
+    <string name="md_choose_label">選擇</string>
+    <string name="choose_language">選擇語言</string>
+    <string name="loading_ad">加載廣告</string>
+    <string name="remove_customization">確定要退出嗎？</string>
+    <string name="twitter_url">輸入推特網址</string>
+    <string name="linkdein_url">輸入鏈接地址</string>
+    <string name="enter_text_without_special_characters">輸入不帶特殊字符的文本</string>
+    <string name="enter_text_in_uppercase_without_special_characters">無特殊字符的大寫文本</string>
+    <string name="only_digits">只有數字</string>
+    <string name="only_even">位數必須為\n偶數</string>
+    <string name="seven_digit_with_checksum">7 位校驗和 1 位</string>
+    <string name="twelve_digit_with_checksum">12 位校驗和 1 位</string>
+    <string name="eleven_digit_with_checksum">11 位數字和 1 個校驗和</string>
+    <string name="barcode">條碼</string>
+    <string name="product_name">名稱</string>
+    <string name="product_code">輸入產品代碼</string>
+    <string name="product_price">輸入產品價格</string>
+    <string name="book_name">輸入書名</string>
+    <string name="book_code">輸入圖書代碼</string>
+    <string name="book_price">輸入圖書價格</string>
+    <string name="watch_ad">觀看廣告</string>
+    <string name="watch_ad_txt">觀看視頻解鎖模板</string>
+    <string name="congratulations">恭喜</string>
+    <string name="new_templates_unlocked">新模板解鎖</string>
+    <string name="okay">好的</string>
+    <string name="no_connection_found">​​未找到連接</string>
+    <string name="please_try_again_later">請稍後再試</string>
+    <string name="app_name_print">二維碼</string>
+    <string name="welcome_qr_txt">歡迎\n使用二維碼</string>
+
+
+    <string name="txt_generate">文本</string>
+    <string name="contact_generate">聯繫方式</string>
+    <string name="url_generate">網址</string>
+    <string name="wifi_generate">Wifi</string>
+    <string name="email_generate">電子郵件</string>
+    <string name="sms_generate">短信</string>
+    <string name="location_generate">位置</string>
+    <string name="call_generate">調用</string>
+    <string name="event_generate">事件</string>
+    <string name="txt_website">網站</string>
+    <string name="phone_generate">電話</string>
+    <string name="scanned_history">掃描歷史記錄</string>
+    <string name="created_history">創建歷史</string>
+
+
+    <string name="ad_attribution">廣告</string>
+    <string name="adsTxt">贊助廣告</string>
+    <string name="help">幫助和反饋</string>
+    <string name="supported_codes">支持的代碼</string>
+    <string name="tips_for_scanning">掃描提示</string>
+    <string name="scanning_does_not_work">掃描不工作</string>
+    <string name="scanning_low_budget">低預算手機掃描</string>
+    <string name="scanned_not_work_txt"> 用低預算的手機掃描可能非常
+由於較低的相機，困難甚至不可能
+質量。\n\n
+如果無法掃描，請嘗試拍照
+使用普通的相機應用。\n\n
+然後使用掃描圖像：</string>
+    <string name="scan_img">掃描圖片</string>
+    <string name="good_luck">祝你好運</string>
+    <string name="QRImg">二維碼圖片</string>
+    <string name="qrCodEMaker">QRCode 條碼製作器</string>
+    <string name="supportedQR">支持14+ QR碼類型</string>
+    <string name="supportedBarCode">支持9+條碼類型</string>
+    <string name="readHelp">閱讀應用程序的幫助以避免掃描時常見的\nm錯誤</string>
+    <string name="name">名稱</string>
+    <string name="phone_number">電話號碼</string>
+    <string name="email">電子郵件</string>
+    <string name="network">網絡名稱（SSID）</string>
+    <string name="recipient_email">收件人電子郵件</string>
+    <string name="subject">主題</string>
+    <string name="body">正文</string>
+    <string name="longitude">經度</string>
+    <string name="latitude">緯度</string>
+    <string name="event_name">事件名稱</string>
+    <string name="location">位置</string>
+    <string name="description">描述</string>
+    <string name="price">價格</string>
+    <string name="book_name_1">書名</string>
+    <string name="book_code_1">圖書代碼</string>
+    <string name="book_price_1">圖書價格</string>
+    <string name="facebook_url">輸入 Facebook 網址</string>
+    <string name="solid_color">純色</string>
+    <string name="dislike_it">不喜歡</string>
+    <string name="rate_stars">給我打分\n5星</string>
+    <string name="no_ads">無廣告</string>
+    <string name="upgrade">轉到高級版</string>
+    <string name="pro_user">成為專業用戶</string>
+    <string name="premium">高級</string>
+    <string name="basic">基本</string>
+    <string name="set_logo_in_center">在中心設置標誌</string>
+    <string name="one_time_purchase"><![CDATA[/一次性購買&終身優惠]]></string>
+    <string name="agree_txt">繼續即表示您同意我們的隱私政策。這是終身優惠，您可以購買一次。</string>
+    <string name="skip">跳過</string>
+
+    <string name="follow_scan_tips">遵循掃描提示</string>
+    <string name="restore">Restore</string>
+</resources>

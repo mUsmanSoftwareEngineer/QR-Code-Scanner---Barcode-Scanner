@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="45dp"
+    android:layout_height="45dp"
+    app:cardCornerRadius="6dp"
+    android:id="@+id/color_card_1"
+    android:layout_toEndOf="@+id/logo_card_1"
+    android:layout_marginEnd="7dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_01"
+        />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_tick_icon"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        android:id="@+id/color_tick"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        app:tint="@color/white"
+        tools:ignore="ContentDescription" />
+
+</androidx.cardview.widget.CardView>

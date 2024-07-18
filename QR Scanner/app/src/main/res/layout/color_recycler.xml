@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    app:cardCornerRadius="6dp"
+    app:cardBackgroundColor="@color/purple"
+    android:elevation="4dp"
+    android:id="@+id/color_card_1"
+    android:layout_toEndOf="@+id/logo_card_1"
+    android:layout_marginEnd="10dp"
+    >
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_tick_icon"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        android:id="@+id/color_tick"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        />
+
+</androidx.cardview.widget.CardView>

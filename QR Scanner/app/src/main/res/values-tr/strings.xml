@@ -1,0 +1,244 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+
+    <!-- TODO Change app name and splash text from here -->
+
+
+    <string name="app_name">QR kod Tarayıcı &amp; Jeneratör</string>
+
+    <string name="menu_scan">Tara</string>
+    <string name="menu_generate">QR Kodu Oluşturun</string>
+    <string name="menu_history">Geçmiş</string>
+    <string name="menu_setting">Ayar</string>
+
+    <string name="rate_menu_title">Lütfen uygulamayı derecelendirin</string>
+    <string name="rate_menu_message">Uygulamayı beğendiniz mi?</string>
+    <string name="rate_menu_yes_btn">Evet</string>
+    <string name="rate_menu_no_btn">Hayır</string>
+    <string name="rate_menu_maybe_btn">Daha sonra değerlendir</string>
+
+    <string name="share">SuperB Scanner uygulamasını şuradan yükleyin:</string>
+    <string name="tapAgain">Çıkmak için tekrar dokunun!</string>
+
+    <string name="allowCameraUse">Kamera kullanımına izin ver</string>
+
+
+
+    <string name="permission_not_granted">İzin verilmedi!</string>
+
+    <string name="type_here_text">Metin Yazın</string>
+    <string name="type_here_phone">Telefon numarasını girin</string>
+    <string name="type_here_email">E-posta girin</string>
+    <string name="type_here_wifi_ssid">SSID/ağ adını girin</string>
+    <string name="type_here_wifi_password">Şifreyi girin</string>
+
+    <string name="copied">Panoya kopyalandı.</string>
+    <string name="result">Sonuç</string>
+    <string name="scanned_result">Taranan sonuç:</string>
+    <string name="scanned_type_qrcode">QR kodu:</string>
+    <string name="scanned_type_barcode">Barkod:</string>
+
+    <string name="saved_to">Şuraya kaydedildi:\n</string>
+    <string name="no_history">Geçmiş boş</string>
+
+    <string name="action">Eylem</string>
+    <string name="date">Tarih</string>
+
+
+    <string name="result_text">Metin:</string>
+    <string name="result_url">URL:</string>
+    <string name="result_youtube">YouTube:</string>
+    <string name="result_phone">Telefon:</string>
+    <string name="result_email">E-posta:</string>
+    <string name="result_wifi">Kablosuz:</string>
+    <string name="result_sms">SMS:</string>
+    <string name="result_vcard">İletişim:</string>
+    <string name="result_geo">Konum:</string>
+    <string name="result_event">Etkinlik:</string>
+    <string name="result_facebook">Facebook:</string>
+    <string name="result_twitter">Twitter:</string>
+    <string name="result_instagram">Instagram:</string>
+    <string name="result_linkdein">Linkdein:</string>
+    <string name="result_whatsapp">Whatsapp:</string>
+
+    <string name="delete_message_item">Bu öğeyi silmek istediğinizden emin misiniz?</string>
+    <string name="delete_message_all">Listeyi temizlemek istediğinizden emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+
+    <string name="error_restart_app">Bir hata oluştu, lütfen uygulamayı yeniden başlatın</string>
+    <string name="error_unexpected">Beklenmeyen bir hata oluştu</string>
+    <string name="error_file">Dosya bulunamadı</string>
+    <string name="error_unknown">Bilinmeyen hata</string>
+
+
+    <string name="settings_autofocus">Otomatik odaklama</string>
+    <string name="settings_vibrate">Titreşim</string>
+    <string name="settings_auto_links">URL\'yi otomatik olarak aç</string>
+    <string name="general">Genel</string>
+    <string name="other">Diğer</string>
+    <string name="rate_us">Bize puan verin</string>
+    <string name="share_app">Uygulamayı paylaş</string>
+
+
+
+
+    <string name="version">Sürüm 1.0.14</string>
+    <string name="privacy">Gizlilik Politikası</string>
+    <!-- YAPILACAKLAR: Bu yer tutucu metni kaldırın veya değiştirin -->
+    <string name="app_permission">Uygulama İzinleri</string>
+    <string name="read_storage">1. Read_External_Storage: </string>
+    <string name="read">QR Kodunu taramak için kaydedilen QR kodu görüntüsünü okuyun</string>
+    <string name="write_storage">2. Write_External_Storage: </string>
+    <string name="write">QR kod görüntüsünü Dahili Depolamaya kaydedin</string>
+    <string name="vibrate_permissions">4. Titreşimler: </string>
+    <string name="vibrate_per">Tarama sırasında Cihazı Titreşim</string>
+    <string name="camera_permission">3. KAMERA: </string>
+    <string name="camera">QR kodunu tarayın</string>
+    <string name="wifi_state_permission">5. ACCESS_WIFI_STATE: </string>
+    <string name="wifi">Bağlan, wifi bağlantısını kes, tam ağ erişimi, ağ bağlantılarını görüntüle, wifi bağlantılarını görüntüle</string>
+    <string name="contacts_permissions">6. Kişiler: </string>
+    <string name="contact">Kişi türüyle QR kodu oluşturmak için kişileri alın</string>
+    <string name="account_permissions">7. Hesap: </string>
+    <string name="account">E-posta ile QR kodu oluşturmak için hesap alın</string>
+    <string name="got_it">Anladım!</string>
+    <string name="rate_me_5">Bana 5 yıldız ver</string>
+    <string name="generate_from_source">Veri Kaynağından Oluştur</string>
+
+
+    <string name="beginTime">Başlangıç ​​Zamanı</string>
+    <string name="endTime">Bitiş Zamanı</string>
+    <string name="content">İçerik</string>
+    <string name="wifi_ssid">Wifi Adı (SSID)</string>
+    <string name="security">Güvenlik Türü</string>
+    <string name="wifi_password">Wifi Şifresi</string>
+    <string name="create">Oluştur</string>
+    <string name="scan">Tara</string>
+    <string name="history">Geçmiş</string>
+    <string name="templates">Şablonlar</string>
+    <string name="fragmentName">FragmentName</string>
+    <string name="createQR">QR oluştur</string>
+    <string name="QRTEXT">QR Metni</string>
+    <string name="QRCat">QR Kategorisi</string>
+    <string name="recipient">Alıcı</string>
+    <string name="message">Mesaj</string>
+    <string name="password">Parola</string>
+    <string name="hidden">Gizli Ağ</string>
+    <string name="company">Şirket</string>
+    <string name="job">İş Unvanı</string>
+    <string name="address">Adres</string>
+    <string name="type_here_memo">Not</string>
+    <string name="edit">Düzenle</string>
+    <string name="color">Renk</string>
+    <string name="logo">Logo</string>
+    <string name="background">Arka Plan</string>
+    <string name="editor">Düzenleyici</string>
+    <string name="shareImg">Paylaş</string>
+    <string name="QRCode">QR Kodu</string>
+    <string name="resultScan">Sonuç Taraması</string>
+    <string name="vibrate">Titreşim</string>
+    <string name="username">Kullanıcı adını girin</string>
+    <string name="type_whatsapp">Numarayı Girin</string>
+    <string name="scanned">Tarandı\n Başarıyla</string>
+    <string name="localize_app">Yerelleştirme</string>
+
+
+    <string name="md_choose_label">Seç</string>
+    <string name="choose_language">Dil Seç</string>
+    <string name="loading_ad">Reklam Yükleniyor</string>
+    <string name="remove_customization">Çıkmak istediğinizden emin misiniz?</string>
+    <string name="twitter_url">Twitter URL\'sini girin</string>
+    <string name="linkdein_url">Linkdein URL\'sini girin</string>
+    <string name="enter_text_without_special_characters">Metni Özel Karakterler Olmadan Girin</string>
+    <string name="enter_text_in_uppercase_without_special_characters">Özel Karakterler Olmadan Büyük Harfli Metin</string>
+    <string name="only_digits">Yalnızca Rakamlar</string>
+    <string name="only_even">Rakam sayısı \n çift sayı olmalıdır</string>
+    <string name="seven_digit_with_checksum">1 sağlama toplamı basamaklı 7 basamak</string>
+    <string name="twelve_digit_with_checksum">1 sağlama toplamı basamaklı 12 basamak</string>
+    <string name="eleven_digit_with_checksum">1 sağlama toplamı ile 11 basamak</string>
+    <string name="barcode">Barkod</string>
+    <string name="product_name">Ad</string>
+    <string name="product_code">Ürün kodunu girin</string>
+    <string name="product_price">Ürün fiyatını girin</string>
+    <string name="book_name">Kitap Adını Girin</string>
+    <string name="book_code">Kitap Kodunu Girin</string>
+    <string name="book_price">Kitap Fiyatını Girin</string>
+    <string name="watch_ad">Reklamı İzle</string>
+    <string name="watch_ad_txt">Video kilidini açma Şablonlarını izleyin</string>
+    <string name="congratulations">Tebrikler</string>
+    <string name="new_templates_unlocked">Kilidi Açılan Yeni Şablonlar</string>
+    <string name="okay">Tamam</string>
+    <string name="no_connection_found">Bağlantı Bulunamadı</string>
+    <string name="please_try_again_later">Lütfen Daha Sonra Tekrar Deneyin</string>
+    <string name="app_name_print">QRCODE</string>
+    <string name="welcome_qr_txt">\nQRcode\'a hoş geldiniz</string>
+
+
+    <string name="txt_generate">Metin</string>
+    <string name="contact_generate">İletişim</string>
+    <string name="url_generate">Url</string>
+    <string name="wifi_generate">Wifi</string>
+    <string name="email_generate">E-posta</string>
+    <string name="sms_generate">SMS</string>
+    <string name="location_generate">Konum</string>
+    <string name="call_generate">Ara</string>
+    <string name="event_generate">Etkinlik</string>
+    <string name="txt_website">Web sitesi</string>
+    <string name="phone_generate">Telefon</string>
+    <string name="scanned_history">Taranmış Geçmiş</string>
+    <string name="created_history">Oluşturma Geçmişi</string>
+
+
+    <string name="ad_attribution">Reklam</string>
+    <string name="adsTxt">Sponsorlu Reklamlar</string>
+    <string name="help">Yardım ve Geri Bildirim</string>
+    <string name="supported_codes">Desteklenen Kodlar</string>
+    <string name="tips_for_scanning">Tarama İpuçları</string>
+    <string name="scanning_does_not_work">Tarama çalışmıyor</string>
+    <string name="scanning_low_budget">Düşük bütçeli telefonlarla tarama</string>
+    <string name="scanned_not_work_txt"> Düşük bütçeli telefonlarla tarama yapmak çok
+düşük kamera nedeniyle zor hatta imkansız
+kalite.\n\n
+Tarama yapamıyorsanız, lütfen bir fotoğraf çekmeyi deneyin.
+normal kamera uygulamanızla.\n\n
+Ardından, aşağıdakileri kullanarak görüntüyü tarayın:</string>
+    <string name="scan_img">Görüntü Tara</string>
+    <string name="good_luck">İyi Şanslar</string>
+    <string name="QRImg">QR Görüntüsü</string>
+    <string name="qrCodEMaker">QRCode Barkod Oluşturucu</string>
+    <string name="supportedQR">Desteklenen 14+ QR Kodu Türü</string>
+    <string name="supportedBarCode">Desteklenen 9+ BarCode Türü</string>
+    <string name="readHelp">Tarama sırasında yaygın \nhatalardan kaçınmak için uygulamanın yardımını okuyun</string>
+    <string name="name">Ad</string>
+    <string name="phone_number">Telefon Numarası</string>
+    <string name="email">E-posta</string>
+    <string name="network">Ağ Adı (SSID)</string>
+    <string name="recipient_email">Alıcı E-postası</string>
+    <string name="subject">Konu</string>
+    <string name="body">Gövde</string>
+    <string name="longitude">Boylam</string>
+    <string name="latitude">Enlem</string>
+    <string name="event_name">Etkinlik Adı</string>
+    <string name="location">Konum</string>
+    <string name="description">Açıklama</string>
+    <string name="price">Fiyat</string>
+    <string name="book_name_1">Kitap Adı</string>
+    <string name="book_code_1">Kitap Kodu</string>
+    <string name="book_price_1">Kitap Fiyatı</string>
+    <string name="facebook_url">Facebook URL\'sini girin</string>
+    <string name="solid_color">Tek Renk</string>
+    <string name="dislike_it">Beğenmedim</string>
+    <string name="rate_stars">Bana \n5 yıldız ver</string>
+    <string name="no_ads">Reklam Yok</string>
+    <string name="upgrade">Premium\'a Geçin</string>
+    <string name="pro_user">Profesyonel bir kullanıcı olun</string>
+    <string name="premium">Premium</string>
+    <string name="basic">temel</string>
+    <string name="set_logo_in_center">Logoyu Ortaya Ayarla</string>
+    <string name="one_time_purchase"><![CDATA[/Tek seferlik satın alma ve Ömür boyu teklif]]></string>
+    <string name="agree_txt">Devam ederek Gizlilik Politikamızı kabul etmiş olursunuz. Bu, ömür boyu sürecek bir tekliftir ve bir kez satın alabilirsiniz.</string>
+    <string name="skip">Atla</string>
+
+    <string name="follow_scan_tips">Tarama İpuçlarını Takip Edin</string>
+    <string name="restore">Restore</string>
+</resources>

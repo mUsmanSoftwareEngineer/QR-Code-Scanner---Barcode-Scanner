@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">ماسح ومولد رمز الاستجابة السريعة</string>
+
+    <string name="menu_scan"> فحص </string>
+    <string name="menu_generate">إنشاء رمز الاستجابة السريعة</string>
+    <string name="menu_history"> المحفوظات </string>
+    <string name="menu_setting"> الإعداد </string>
+
+    <string name="rate_menu_title"> يرجى تقييم التطبيق </string>
+    <string name="rate_menu_message"> هل يعجبك التطبيق؟ </string>
+    <string name="rate_menu_yes_btn"> نعم </string>
+    <string name="rate_menu_no_btn"> لا </string>
+    <string name="rate_menu_maybe_btn"> التقييم لاحقًا </string>
+
+    <string name="share"> تثبيت تطبيق SuperB Scanner من: </string>
+    <string name="tapAgain"> انقر مرة أخرى للخروج! </string>
+
+    <string name="allowCameraUse"> السماح باستخدام الكاميرا </string>
+
+    <string name="permission_not_granted"> لم يتم منح الإذن! </string>
+
+
+    <string name="type_here_text"> اكتب نصًا </string>
+    <string name="type_here_phone"> أدخل رقم الهاتف </string>
+    <string name="type_here_email"> أدخل البريد الإلكتروني </string>
+    <string name="type_here_wifi_ssid"> أدخل SSID / اسم الشبكة </string>
+    <string name="type_here_wifi_password"> أدخل كلمة المرور </string>
+
+    <string name="copied"> تم النسخ إلى الحافظة. </string>
+    <string name="result"> النتيجة </string>
+    <string name="scanned_result"> النتيجة الممسوحة: </string>
+    <string name="scanned_type_qrcode"> رمز الاستجابة السريعة: </string>
+    <string name="scanned_type_barcode"> الرمز الشريطي: </string>
+
+    <string name="saved_to"> محفوظ في: \ n </string>
+    <string name="no_history"> المحفوظات فارغة </string>
+
+    <string name="action"> الإجراء </string>
+    <string name="date"> التاريخ </string>
+
+    <string name="result_text"> نص: </string>
+    <string name="result_url"> URL: </string>
+    <string name="result_youtube"> YouTube: </string>
+    <string name="result_phone"> الهاتف: </string>
+    <string name="result_email"> البريد الإلكتروني: </string>
+    <string name="result_wifi"> Wi-Fi: </string>
+    <string name="result_sms"> رسالة قصيرة: </string>
+    <string name="result_vcard"> جهة الاتصال: </string>
+    <string name="result_geo"> تحديد الموقع الجغرافي: </string>
+    <string name="result_event"> الحدث: </string>
+    <string name="result_facebook"> فيسبوك: </string>
+    <string name="result_twitter"> تويتر: </string>
+    <string name="result_instagram"> انستغرام: </string>
+    <string name="result_linkdein"> ينكدين: </string>
+    <string name="result_whatsapp"> Whatsapp: </string>
+
+    <string name = "delete_message_item"> هل أنت متأكد أنك تريد حذف هذا العنصر؟ </string>
+    <string name = "delete_message_all"> هل أنت متأكد أنك تريد مسح القائمة؟ </string>
+    <string name = "yes"> نعم </string>
+    <string name = "no"> لا </string>
+
+    <string name="error_restart_app"> حدث خطأ ، يرجى إعادة تشغيل التطبيق </string>
+    <string name="error_unexpected"> حدث خطأ غير متوقع </string>
+    <string name="error_file"> لم يتم العثور على الملف </string>
+    <string name="error_unknown"> خطأ غير معروف </string>
+
+    <string name="settings_autofocus"> ضبط تلقائي للصورة </string>
+    <string name="settings_vibrate"> اهتزاز </string>
+    <string name="settings_auto_links"> فتح عنوان URL تلقائيًا </string>
+    <string name="general"> عام </string>
+    <string name="other"> أخرى </string>
+    <string name="rate_us"> قيمنا </string>
+    <string name="share_app"> مشاركة التطبيق </string>
+
+
+
+
+
+    <string name="version"> الإصدار 1.0.14 </string>
+
+    <string name="privacy"> سياسة الخصوصية </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_permission"> أذونات التطبيق </string>
+    <string name="read_storage"> 1. Read_External_Storage: </string>
+    <string name="read"> اقرأ صورة رمز الاستجابة السريعة المحفوظة لمسح رمز الاستجابة السريعة ضوئيًا </string>
+    <string name="write_storage"> 2. Write_External_Storage: </string>
+    <string name="write"> حفظ صورة رمز الاستجابة السريعة في وحدة التخزين الداخلية </string>
+    <string name="vibrate_permissions"> 4. الاهتزازات: </string>
+    <string name="vibrate_per"> اهتزاز الجهاز عند المسح </string>
+    <string name="camera_permission"> 3. الكاميرا: </string>
+    <string name="camera"> مسح رمز الاستجابة السريعة ضوئيًا </string>
+    <string name="wifi_state_permission"> 5. ACCESS_WIFI_STATE: </string>
+    <string name="wifi"> الاتصال ، وقطع الاتصال بشبكة wifi ، والوصول الكامل إلى الشبكة ، وعرض اتصالات الشبكة ، وعرض اتصالات wifi </string>
+    <string name="contacts_permissions"> 6. جهات الاتصال: </string>
+    <string name="contact"> احصل على جهات اتصال لإنشاء رمز QR مع نوع جهات الاتصال </string>
+    <string name="account_permissions"> 7. الحساب: </string>
+    <string name="account"> الحصول على حساب لإنشاء رمز QR بالبريد الإلكتروني </string>
+    <string name="got_it"> حسنًا! </string>
+    <string name="rate_me_5"> قيمني بـ 5 نجوم </string>
+    <string name="generate_from_source"> إنشاء من مصدر البيانات </string>
+
+
+    <string name="beginTime"> وقت البدء </string>
+    <string name="endTime"> وقت الانتهاء </string>
+    <string name="content"> المحتوى </string>
+    <string name="wifi_ssid"> اسم Wifi (SSID) </string>
+    <string name="security"> نوع الأمان </string>
+    <string name="wifi_password"> كلمة مرور Wifi </string>
+    <string name="create"> إنشاء </string>
+    <string name="scan"> مسح </string>
+    <string name="history"> المحفوظات </string>
+    <string name="templates"> القوالب </string>
+    <string name="fragmentName"> اسم الجزء </string>
+    <string name="createQR"> إنشاء QR </string>
+    <string name="QRTEXT"> نص QR </string>
+    <string name="QRCat"> فئة QR </string>
+    <string name="recipient"> المستلم </string>
+    <string name="message"> رسالة </string>
+    <string name="password"> كلمة المرور </string>
+    <string name="hidden"> الشبكة المخفية </string>
+    <string name="company"> الشركة </string>
+    <string name="job"> المسمى الوظيفي </string>
+    <string name="address"> العنوان </string>
+    <string name="type_here_memo"> مذكرة </string>
+    <string name="edit"> يحرر </string>
+    <string name="color"> اللون </string>
+    <string name="logo"> شعار </string>
+    <string name="background"> ​​الخلفية </string>
+    <string name="editor"> المحرر </string>
+    <string name="shareImg"> مشاركة </string>
+    <string name="QRCode"> رمز الاستجابة السريعة </string>
+    <string name="resultScan"> مسح النتيجة </string>
+    <string name="vibrate"> اهتزاز </string>
+    <string name="username"> أدخل اسم المستخدم </string>
+    <string name="type_whatsapp"> أدخل الرقم </string>
+    <string name="scanned"> تم الفحص \ n بنجاح </string>
+    <string name="localize_app"> الترجمة </string>
+
+
+    <string name="md_choose_label"> اختر </string>
+    <string name="choose_language"> اختر اللغة </string>
+    <string name="loading_ad"> تحميل الإعلان </string>
+    <string name="remove_customization"> هل أنت متأكد أنك تريد الخروج؟ </string>
+    <string name="twitter_url"> أدخل عنوان URL الخاص بتويتر </string>
+    <string name="linkdein_url"> أدخل عنوان URL الخاص بـ Linkdein </string>
+    <string name="enter_text_without_special_characters"> أدخل نصًا بدون أحرف خاصة </string>
+    <string name="enter_text_in_uppercase_without_special_characters"> نص بأحرف كبيرة بدون أحرف خاصة </string>
+    <string name="only_digits"> أرقام فقط </string>
+    <string name="only_even"> يجب أن يكون عدد الأرقام \ n عددًا زوجيًا </string>
+    <string name="seven_digit_with_checksum"> 7 أرقام مع رقم اختباري واحد </string>
+    <string name="twelve_digit_with_checksum"> 12 رقمًا مع رقم اختباري واحد </string>
+    <string name="eleven_digit_with_checksum"> 11 رقمًا مع مجموع اختباري واحد </string>
+    <string name="barcode"> الرمز الشريطي </string>
+    <string name="product_name"> الاسم </string>
+    <string name="product_code"> أدخل رمز المنتج </string>
+    <string name="product_price"> أدخل سعر المنتج </string>
+    <string name="book_name"> أدخل اسم الكتاب </string>
+    <string name="book_code"> أدخل كود الكتاب </string>
+    <string name="book_price"> أدخل سعر الكتاب </string>
+    <string name="watch_ad"> مشاهدة الإعلان </string>
+    <string name="watch_ad_txt"> مشاهدة قوالب إلغاء تأمين الفيديو </string>
+    <string name="congratulations"> تهانينا </string>
+    <string name="new_templates_unlocked"> تم إلغاء تأمين القوالب الجديدة </string>
+    <string name="okay"> حسنًا </string>
+    <string name="no_connection_found"> ​​لم يتم العثور على اتصال </string>
+    <string name="please_try_again_later"> الرجاء المحاولة لاحقًا </string>
+    <string name="app_name_print"> QRCODE </string>
+    <string name="welcome_qr_txt"> مرحبًا \ n في QRcode </string>
+
+
+    <string name="txt_generate"> نص </string>
+    <string name="contact_generate"> جهة الاتصال </string>
+    <string name="url_generate"> عنوان Url </string>
+    <string name="wifi_generate"> شبكة Wifi </string>
+    <string name="email_generate"> البريد الإلكتروني </string>
+    <string name="sms_generate"> الرسائل القصيرة </string>
+    <string name="location_generate"> الموقع </string>
+    <string name="call_generate"> اتصال </string>
+    <string name="event_generate"> حدث </string>
+    <string name="txt_website"> موقع الويب </string>
+    <string name="phone_generate"> الهاتف </string>
+    <string name="scanned_history"> المحفوظات الممسوحة ضوئيًا </string>
+    <string name="created_history"> تاريخ الإنشاء </string>
+
+    <string name="ad_attribution"> إعلان </string>
+    <string name="adsTxt"> إعلانات دعائية </string>
+    <string name="help"> المساعدة والتعليقات </string>
+    <string name="supported_codes"> الرموز المدعومة </string>
+    <string name="tips_for_scanning"> تلميحات المسح </string>
+    <string name="scanning_does_not_work"> المسح لا يعمل </string>
+    <string name="scanning_low_budget"> المسح باستخدام الهواتف منخفضة الميزانية </string>
+    <string name="scanned_not_work_txt"> يمكن أن يكون المسح الضوئي باستخدام الهواتف منخفضة الميزانية أمرًا بالغ الأهمية
+صعب بل مستحيل بسبب انخفاض الكاميرا
+الجودة. \ n \ n
+إذا لم تتمكن من المسح ، يرجى محاولة التقاط صورة
+مع تطبيق الكاميرا العادي. \ n \ n
+ثم امسح الصورة ضوئيًا باستخدام: </string>
+
+    <string name="scan_img"> مسح الصورة ضوئيًا </string>
+    <string name="good_luck"> حظًا سعيدًا </string>
+    <string name="QRImg"> صورة QR </string>
+    <string name="qrCodEMaker"> QRCode Barcode Maker </string>
+    <string name="supportedQR"> أكثر من 14 نوعًا من أكواد QR مدعومة </string>
+    <string name="supportedBarCode"> دعم 9+ من أنواع الرموز الشريطية </string>
+    <string name="readHelp"> اقرأ تعليمات التطبيق لتجنب \ n الأخطاء الشائعة أثناء المسح </string>
+    <string name="name"> الاسم </string>
+    <string name="phone_number"> رقم الهاتف </string>
+    <string name="email"> البريد الإلكتروني </string>
+    <string name="network"> اسم الشبكة (SSID) </string>
+    <string name="recipient_email"> البريد الإلكتروني للمستلم </string>
+    <string name="subject"> الموضوع </string>
+    <string name="body"> الجسم </string>
+    <string name="longitude"> خط الطول </string>
+    <string name="latitude"> خط العرض </string>
+    <string name="event_name"> اسم الحدث </string>
+    <string name="location"> الموقع </string>
+    <string name="description"> الوصف </string>
+    <string name="price"> السعر </string>
+    <string name="book_name_1"> اسم الكتاب </string>
+    <string name="book_code_1"> كود الكتاب </string>
+    <string name="book_price_1"> سعر الكتاب </string>
+    <string name="facebook_url"> أدخل عنوان URL الخاص بـ Facebook </string>
+    <string name="solid_color"> لون خالص </string>
+    <string name="dislike_it"> لم يعجبك </string>
+    <string name="rate_stars"> قيمني \ n5 نجوم </string>
+    <string name="no_ads"> لا إعلانات </string>
+    <string name="upgrade"> انتقل إلى الإصدار Premium </string>
+    <string name="pro_user"> كن مستخدمًا محترفًا </string>
+    <string name="premium"> الممتازة </string>
+    <string name="basic"> أساسي </string>
+    <string name="set_logo_in_center"> تعيين الشعار في المركز </string>
+    <string name="one_time_purchase">/ عرض الشراء لمرة واحدة ومدى الحياة </string>
+    <string name="agree_txt"> من خلال المتابعة ، فإنك توافق على سياسة الخصوصية الخاصة بنا. هذا عرض مدى الحياة ويمكنك شراؤه مرة واحدة. </string>
+    <string name="skip"> تخطي </string>
+
+    <string name="follow_scan_tips">اتبع إرشادات المسح</string>
+    <string name="restore">Restore</string>
+
+</resources>

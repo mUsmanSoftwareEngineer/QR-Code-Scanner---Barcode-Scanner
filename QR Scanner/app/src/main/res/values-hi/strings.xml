@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="scanned">स्कैन किया गया\n सफलतापूर्वक</string>
+    <string name="app_permission">एप्लिकेशन अनुमतियों</string>
+
+    <string name="read">क्यूआर कोड स्कैन करने के लिए सेव क्यूआर कोड इमेज पढ़ें</string>
+    <string name="write">क्यूआर कोड इमेज को इंटरनल स्टोरेज में सेव करें</string>
+    <string name="vibrate_per">स्कैन करने पर वाइब्रेट डिवाइस</string>
+    <string name="camera">स्कैन क्यू आर कोड</string>
+    <string name="wifi">कनेक्ट करें, वाईफाई से डिस्कनेक्ट करें, पूर्ण नेटवर्क एक्सेस, नेटवर्क कनेक्शन देखें, वाईफाई कनेक्शन देखें</string>
+    <string name="contact">संपर्क प्रकार के साथ क्यूआर कोड बनाने के लिए संपर्क प्राप्त करें</string>
+    <string name="account">ईमेल से क्यूआर कोड बनाने के लिए खाता पाएं</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="network">Network Name (SSID)</string>
+    <string name="recipient_email">Recipient Email</string>
+    <string name="subject">Subject</string>
+    <string name="body">Body</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="event_name">Event Name</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="book_name_1">Book Name</string>
+    <string name="book_code_1">Book Code</string>
+    <string name="book_price_1">Book Price</string>
+    <string name="facebook_url">Enter Facebook URL</string>
+    <string name="solid_color">Solid Color</string>
+    <string name="dislike_it">Dislike it</string>
+    <string name="rate_stars">Rate me \n5 stars</string>
+
+    <string name="qrCodEMaker">क्यूआर कोड बारकोड मेकर</string>
+    <string name="supportedQR">14+ क्यूआर कोड प्रकार समर्थित</string>
+    <string name="supportedBarCode">9+ बारकोड प्रकार समर्थित</string>
+    <string name="readHelp">स्कैन करते समय सामान्य \nगलतियों से बचने के लिए ऐप की सहायता पढ़ें</string>
+    <string name="skip">छोड़ें</string>
+
+    <string name="pro_user">एक पेशेवर उपयोगकर्ता बनें</string>
+    <string name="premium">प्राइम </string>
+    <string name="basic">बुनियादी</string>
+    <string name="set_logo_in_center">लोगो को केंद्र में सेट करें</string>
+    <string name="one_time_purchase">वन टाइम बाय और लाइफटाइम ऑफर</string>
+    <string name="agree_txt">जारी रखकर आप हमारी गोपनीयता नीति से सहमत होते हैं। यह लाइफ टाइम ऑफर है और आप इसे एक बार खरीद सकते हैं।</string>
+
+    <string name="upgrade">प्रीमियम के लिए जाएँ</string>
+    <string name="restore">Restore</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <color name="colorPrimary">#172331</color>-->
+<!--    <color name="colorPrimaryDark">#172331</color>-->
+<!--    <color name="colorAccent">#172331</color>-->
+
+
+<!--    <color name="colorMainBg">#172331</color>-->
+<!--    <color name="cardBg">#3e4f65</color>-->
+
+<!--    <color name="darkMainColor">#f47961</color>-->
+<!--    <color name="white">#ffffff</color>-->
+
+<!--    <color name="fab">#454A53</color>-->
+
+    <!--    <color name="viewfinder_mask">#2e000000</color>-->
+<!--    <color name="viewfinder_laser">#FF0000</color>-->
+<!--    <color name="viewfinder_border">#FF794F</color>-->
+<!--    <color name="purple">#F05E53</color>-->
+
+<!--    <color name="whiteLight">#ebeced</color>-->
+
+<!--    <color name="viewFinderColor">#85000000</color>-->
+
+<!--    <color name="textColorHint">#90EBECED</color>-->
+
+<!--    <color name="deleteColor">#FED843</color>-->
+
+    <color name="greyishColor">#4B535B</color>
+
+    <color name="colorPrimary">#172331</color>
+    <color name="colorPrimaryDark">#172331</color>
+    <color name="colorAccent">#172331</color>
+
+    <!--   New Colors UI-->
+    <color name="colorMainBg">#232323</color>
+<!--    <color name="light_grey">#7d7c7c</color>-->
+    <color name="whiteLight">#f3f2f2</color>
+<!--    <color name="yellow">#ecb538</color>-->
+<!--    <color name="red">#d75c5e</color>-->
+<!--    <color name="green">#47cc7b</color>-->
+<!--    <color name="blue">#42a7ee</color>-->
+    <color name="white">#ffffff</color>
+
+    <color name="cardBg">#857878</color>
+<!--    4D4942-->
+    <color name="darkMainColor">#FFBA22</color>
+    <color name="fab">#454A53</color>
+    <color name="viewfinder_mask">#BC4E4942</color>
+    <color name="viewfinder_laser">#ecb538</color>
+    <color name="viewfinder_border">#ecb538</color>
+    <color name="purple">#F05E53</color>
+
+    <color name="textColorHint">#7d7c7c</color>
+    <color name="deleteColor">#FCC252</color>
+    <color name="tt_black">#000000</color>
+
+<!--    <color name="nav_color">#ffffff</color>-->
+<!--    <color name="item_bg">#2f4993</color>-->
+
+
+</resources>

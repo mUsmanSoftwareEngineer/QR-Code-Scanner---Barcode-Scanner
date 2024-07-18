@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout_slide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/goBackk"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:src="@drawable/back_scanner"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+
+
+        <!--        <TextView-->
+        <!--            android:visibility="gone"-->
+        <!--            android:id="@+id/skipeddd"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginEnd="@dimen/_10sdp"-->
+        <!--            android:fontFamily="@font/product_sans_bold"-->
+        <!--            android:gravity="end"-->
+        <!--            android:text="SKIP"-->
+        <!--            android:textSize="@dimen/_14sdp" />-->
+        <!--
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimaryDark" />-->
+    </RelativeLayout>
+
+    <com.infinity.interactive.scanqr.generateqr.adapter.ClickableViewPager
+        android:id="@+id/view_pager_slide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/dots_linear"
+        android:layout_below="@+id/appBarLayout"
+        android:gravity="center">
+
+    </com.infinity.interactive.scanqr.generateqr.adapter.ClickableViewPager>
+
+    <LinearLayout
+        android:id="@+id/dots_linear"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_above="@+id/bottom_relative"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+            <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                android:id="@+id/dots_indicatorrr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:dotsColor="@color/whiteLight"
+                app:dotsCornerRadius="8dp"
+                app:dotsSize="8dp"
+                app:dotsSpacing="4dp"
+                app:dotsWidthFactor="8.5"
+                app:progressMode="true"
+
+                app:selectedDotColor="@color/darkMainColor" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_try_again_btn"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_above="@+id/bottom_relative"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginBottom="@dimen/_20sdp"-->
+    <!--        android:background="@drawable/bg_1"-->
+    <!--        android:fontFamily="@font/product_sans_bold"-->
+    <!--        android:paddingStart="50dp"-->
+    <!--        android:paddingEnd="50dp"-->
+    <!--        android:text="@string/done"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="@dimen/_14sdp"-->
+    <!--        android:visibility="gone" />-->
+
+    <RelativeLayout
+        android:id="@+id/bottom_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="0dp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/skipeddd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:textStyle="bold"
+                android:includeFontPadding="false"
+                android:gravity="center_vertical"
+                android:text="@string/skip"
+                android:textAllCaps="true"
+                android:textColor="@color/darkMainColor"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="4dp"
+                android:gravity="center_vertical"
+                android:rotation="180"
+                android:src="@drawable/back_scanner"
+                app:tint="@color/darkMainColor"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/back_scanner"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

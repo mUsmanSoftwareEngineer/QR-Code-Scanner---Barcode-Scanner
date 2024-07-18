@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="scanned">Scansione\n riuscita</string>
+    <string name="app_permission">Autorizzazioni dell\'applicazione</string>
+
+    <string name="read">Leggi l\'immagine di backup del codice QR per scansionare il codice QR</string>
+    <string name="write">Salva l\'immagine del codice QR nella memoria interna</string>
+    <string name="vibrate_per">Il dispositivo vibra durante la scansione</string>
+    <string name="camera">Scansiona il codice QR</string>
+    <string name="wifi">Connetti, disconnetti dal wifi, accesso completo alla rete, visualizza connessioni di rete, visualizza connessioni wifi</string>
+    <string name="contact">Ottieni contatti per creare un codice QR con il tipo di contatti</string>
+    <string name="account">Ottieni un account per creare un codice QR con e-mail</string>
+
+    <string name="welcome_qr_txt">Benvenuto in \ncodice QR</string>
+    <string name="create">creare</string>
+    <string name="scan">analizzare</string>
+    <string name="history">la storia</string>
+    <string name="templates">Modelli</string>
+    <string name="menu_setting">impostazioni</string>
+
+    <string name="menu_generate">crea un codice QR</string>
+    <string name="createQR">crea QR</string>
+    <string name="barcode">Codice a barre</string>
+
+
+    <string name="delete_message_item">Sei sicuro di voler eliminare questo elemento?</string>
+    <string name="delete_message_all">Sei sicuro di voler cancellare l\'elenco?</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+
+    <string name="remove_customization">Sei sicuro di voler uscire?</string>
+
+    <string name="txt_generate">testo</string>
+    <string name="contact_generate">contatto</string>
+    <string name="url_generate">URL</string>
+    <string name="wifi_generate">Wi-Fi</string>
+    <string name="email_generate">E-mail</string>
+    <string name="sms_generate">sms</string>
+    <string name="location_generate">Posizionamento</string>
+    <string name="call_generate">chiamare</string>
+    <string name="event_generate">Evento</string>
+    <string name="txt_website">sito Internet</string>
+    <string name="phone_generate">chiamata</string>
+
+    <string name="no_history">Storia vuota</string>
+    <string name="scanned_history">Storia digitalizzata</string>
+    <string name="created_history">Storia creata</string>
+
+    <string name="general">Generale</string>
+    <string name="privacy">politica sulla riservatezza</string>
+    <string name="settings_autofocus">Messa a fuoco automatica</string>
+    <string name="settings_vibrate">Vibrare</string>
+    <string name="settings_auto_links">Apri URL automaticamente</string>
+    <string name="other">Altro</string>
+    <string name="rate_us">Valutaci</string>
+    <string name="share_app">Condividi app</string>
+    <string name="localize_app">localizzazione</string>
+
+    <string name="type_here_text">Digita del testo</string>
+    <string name="type_here_phone">Inserisci il numero di telefono</string>
+    <string name="type_here_email">Inserisci l\'email</string>
+    <string name="type_here_wifi_ssid">Immettere l\'SSID/nome della rete</string>
+    <string name="type_here_wifi_password">Inserire la password</string>
+
+    <string name="copied">Copiato negli appunti.</string>
+    <string name="result">Risultato</string>
+    <string name="scanned_result">Risultato scansionato:</string>
+    <string name="scanned_type_qrcode">QR Code:</string>
+    <string name="scanned_type_barcode">Codice a barre:</string>
+
+
+    <string name="ad_attribution">Annuncio</string>
+    <string name="adsTxt">Annunci sponsorizzati</string>
+    <string name="help">Aiuto e feedback</string>
+    <string name="supported_codes">Codici supportati</string>
+    <string name="tips_for_scanning">Suggerimenti per la scansione</string>
+    <string name="scanning_does_not_work">Scansione non funzionante</string>
+    <string name="scanning_low_budget">Scansione con telefoni a basso budget</string>
+<!--    <string name="scanned_not_work_txt"> La scansione con telefoni a basso budget può essere molto-->
+<!--difficile o addirittura impossibile a causa della fotocamera inferiore-->
+<!--qualità.\n\n-->
+<!--Se non riesci a scansionare, prova a scattare una foto-->
+<!--con la normale app della fotocamera.\n\n-->
+<!--Quindi scansiona l'immagine usando:</string>-->
+    <string name="scan_img">Scansione immagine</string>
+    <string name="good_luck">Buona fortuna</string>
+    <string name="QRImg">Immagine QR</string>
+
+    <string name="beginTime">Ora di inizio</string>
+    <string name="endTime">Tempo scaduto</string>
+    <string name="content">Contenuto</string>
+    <string name="wifi_ssid">Nom Wi-Fi (SSID)</string>
+    <string name="security">Tipo di sicurezza</string>
+    <string name="wifi_password">Password Wi-Fi</string>
+    <string name="fragmentName">FragmentName</string>
+    <string name="QRTEXT">Testo</string>
+    <string name="QRCat">Categoria QR</string>
+    <string name="recipient">Destinatario</string>
+    <string name="message">Messaggio</string>
+    <string name="password">Parola d\'ordine</string>
+    <string name="hidden">Rete nascosta</string>
+    <string name="company">Azienda</string>
+    <string name="job">Titolo di lavoro</string>
+    <string name="address">Indirizzo</string>
+    <string name="type_here_memo">Nota</string>
+    <string name="edit">Modificatrice</string>
+    <string name="color">Colore</string>
+    <string name="logo">Logo</string>
+    <string name="background">Sfondo</string>
+    <string name="editor">Editore</string>
+    <string name="shareImg">suddividere</string>
+    <string name="QRCode">QR Code</string>
+    <string name="resultScan">Analisi dei risultati</string>
+    <string name="vibrate">Vibrare</string>
+    <string name="username">Inserisci il tuo nome utente</string>
+    <string name="type_whatsapp">Inserisci un numero</string>
+    <string name="got_it">inteso!</string>
+    <string name="name">Nom</string>
+    <string name="phone_number">Numero di telefono</string>
+    <string name="email">E-mail</string>
+    <string name="network">Nome di rete (SSID)</string>
+    <string name="recipient_email">Destinatario dell\'email</string>
+    <string name="subject">Questione</string>
+    <string name="body">Corpo</string>
+    <string name="longitude">Longitudine</string>
+    <string name="latitude">Latitudine</string>
+    <string name="event_name">Nome dell\'evento</string>
+    <string name="location">Posizionamento</string>
+    <string name="description">La descrizione</string>
+
+    <string name="enter_text_without_special_characters">Immettere il testo senza caratteri speciali</string>
+    <string name="enter_text_in_uppercase_without_special_characters">Testo maiuscolo senza caratteri speciali</string>
+    <string name="only_digits">Solo numeri</string>
+    <string name="only_even">Il numero di cifre deve essere \n un numero pari</string>
+    <string name="seven_digit_with_checksum">7 cifre con 1 cifra di checksum</string>
+    <string name="twelve_digit_with_checksum">12 cifre con 1 cifra di checksum</string>
+    <string name="eleven_digit_with_checksum">11 cifre con 1 checksum</string>
+    <string name="product_name">Nom</string>
+    <string name="product_code">Inserisci il codice del prodotto</string>
+    <string name="product_price">Inserisci il codice del prodotto</string>
+    <string name="book_name">Entrez le nom du livre</string>
+    <string name="book_code">Inserisci il codice del libro</string>
+    <string name="book_price">Inserisci il prezzo del libro</string>
+    <string name="price">Premio</string>
+    <string name="book_name_1">Nome del libro</string>
+    <string name="book_code_1">codice libro</string>
+    <string name="book_price_1">prezzo del libro</string>
+    <string name="facebook_url">Inserisci l\'URL di Facebook</string>
+    <string name="result_facebook">Facebook:</string>
+    <string name="result_twitter">Twitter:</string>
+    <string name="result_instagram">Instagram:</string>
+    <string name="result_linkdein">Linkdein:</string>
+    <string name="result_whatsapp">Whatsapp:</string>
+    <string name="solid_color">Tinta unita</string>
+    <string name="watch_ad">Guarda l\'annuncio</string>
+    <string name="watch_ad_txt">Guarda il video Schemi di sblocco</string>
+    <string name="dislike_it">non mi piace lui</string>
+    <string name="rate_stars">Valutami \n5 stelle</string>
+    <string name="rate_me_5">Votami 5 stelle</string>
+    <!--    <string name="hard_programmer">Je suis un programmeur travaillant très dur pour vous offrir la meilleure application gratuite. Votre avis 5 étoiles vaut plus que tout l\'argent. S'il vous plaît écrivez une belle critique dans Google Play pour m'encourager!</string>-->
+    <string name="congratulations">Congratulazioni</string>
+    <string name="new_templates_unlocked">Nuovi modelli sbloccati</string>
+    <string name="okay">Va bene</string>
+    <string name="no_connection_found">Nessuna connessione trovata</string>
+    <string name="please_try_again_later">per favore riprova più tardi</string>
+
+    <string name="qrCodEMaker">Creatore di codici a barre QR Code</string>
+    <string name="supportedQR">14+ tipi di codice QR supportati</string>
+    <string name="supportedBarCode">9+ tipi di codici a barre supportati</string>
+    <string name="readHelp">Leggi la guida dell\'app per evitare errori comuni durante la scansione</string>
+    <string name="skip">Saltare</string>
+
+    <string name="pro_user">Diventa un utente professionista</string>
+    <string name="premium">Premio</string>
+    <string name="basic">Base</string>
+    <string name="set_logo_in_center">Imposta il logo al centro</string>
+    <string name="one_time_purchase"><![CDATA[/Acquisto una tantum e offerta a vita]]></string>
+    <string name="agree_txt">Continuando accetti la nostra Informativa sulla privacy. Questa è un\'offerta a vita e puoi acquistarla una sola volta.</string>
+
+    <string name="upgrade">Vai Premium</string>
+
+    <string name="follow_scan_tips">Segui i suggerimenti per la scansione</string>
+    <string name="restore">Restore</string>
+
+</resources>

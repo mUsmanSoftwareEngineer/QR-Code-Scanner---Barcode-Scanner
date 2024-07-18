@@ -1,0 +1,243 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+
+    <!-- TODO Change app name and splash text from here -->
+
+    <string name="app_name">QR-code Scanner &amp; Generator</string>
+
+    <string name="menu_scan">Scannen</string>
+    <string name="menu_generate">QR-code maken</string>
+    <string name="menu_history">Geschiedenis</string>
+    <string name="menu_setting">Instelling</string>
+
+    <string name="rate_menu_title">Beoordeel de app</string>
+    <string name="rate_menu_message">Vind je de app leuk?</string>
+    <string name="rate_menu_yes_btn">Ja</string>
+    <string name="rate_menu_no_btn">Nee</string>
+    <string name="rate_menu_maybe_btn">Later beoordelen</string>
+
+    <string name="share">Installeer de SuperB Scanner-app van:</string>
+    <string name="tapAgain">Tik nogmaals om af te sluiten!</string>
+
+    <string name="allowCameraUse">Gebruik camera toestaan</string>
+
+    <string name="permission_not_granted">Toestemming niet verleend!</string>
+
+    <string name="type_here_text">Tekst typen</string>
+    <string name="type_here_phone">Voer telefoonnummer in</string>
+    <string name="type_here_email">E-mailadres invoeren</string>
+    <string name="type_here_wifi_ssid">Voer SSID/netwerknaam in</string>
+    <string name="type_here_wifi_password">Voer wachtwoord in</string>
+
+    <string name="copied">Gekopieerd naar klembord.</string>
+    <string name="result">Resultaat</string>
+    <string name="scanned_result">Gescand resultaat:</string>
+    <string name="scanned_type_qrcode">QR-code:</string>
+    <string name="scanned_type_barcode">Barcode:</string>
+
+    <string name="saved_to">Opgeslagen in:\n</string>
+    <string name="no_history">Geschiedenis leeg</string>
+
+    <string name="action">Actie</string>
+    <string name="date">Datum</string>
+
+
+    <string name="result_text">Tekst:</string>
+    <string name="result_url">URL:</string>
+    <string name="result_youtube">YouTube:</string>
+    <string name="result_phone">Telefoon:</string>
+    <string name="result_email">E-mail:</string>
+    <string name="result_wifi">Wi-Fi:</string>
+    <string name="result_sms">SMS:</string>
+    <string name="result_vcard">Contactpersoon:</string>
+    <string name="result_geo">Geolocatie:</string>
+    <string name="result_event">Evenement:</string>
+    <string name="result_facebook">Facebook:</string>
+    <string name="result_twitter">Twitter:</string>
+    <string name="result_instagram">Instagram:</string>
+    <string name="result_linkdein">Linkdein:</string>
+    <string name="result_whatsapp">Whatsapp:</string>
+
+    <string name="delete_message_item">Weet je zeker dat je dit item wilt verwijderen?</string>
+    <string name="delete_message_all">Weet je zeker dat je de lijst wilt wissen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+
+
+
+    <string name="error_restart_app">Er is een fout opgetreden, start de app opnieuw</string>
+    <string name="error_unexpected">Er is een onverwachte fout opgetreden</string>
+    <string name="error_file">Bestand niet gevonden</string>
+    <string name="error_unknown">Onbekende fout</string>
+
+    <string name="settings_autofocus">Autofocus</string>
+    <string name="settings_vibrate">Trillen</string>
+    <string name="settings_auto_links">URL automatisch openen</string>
+    <string name="general">Algemeen</string>
+    <string name="other">Anders</string>
+    <string name="rate_us">Beoordeel ons</string>
+    <string name="share_app">App delen</string>
+
+
+
+
+    <string name="version">Versie 1.0.14</string>
+    <string name="privacy">Privacybeleid</string>
+    <!-- TODO: Deze tijdelijke aanduiding-tekst verwijderen of wijzigen -->
+    <string name="app_permission">App-machtigingen</string>
+    <string name="read_storage">1. Read_External_Storage: </string>
+    <string name="read">Lees de opgeslagen QR-codeafbeelding om de QR-code te scannen</string>
+    <string name="write_storage">2. Write_External_Storage: </string>
+    <string name="write">Sla QR-code afbeelding op in interne opslag</string>
+    <string name="vibrate_permissions">4. Trillingen: </string>
+    <string name="vibrate_per">Trillen apparaat bij scannen</string>
+    <string name="camera_permission">3. CAMERA: </string>
+    <string name="camera">QR-code scannen</string>
+    <string name="wifi_state_permission">5. ACCESS_WIFI_STATE: </string>
+    <string name="wifi">Verbinden, verbreken van wifi, volledige netwerktoegang, netwerkverbindingen bekijken, wifi-verbindingen bekijken</string>
+    <string name="contacts_permissions">6. Contacten: </string>
+    <string name="contact">Contactpersonen ophalen om QR-code te maken met contacttype</string>
+    <string name="account_permissions">7. Account: </string>
+    <string name="account">Account aanmaken om QR-code te maken met e-mail</string>
+    <string name="got_it">Begrepen!</string>
+    <string name="rate_me_5">Beoordeel mij 5 sterren</string>
+    <string name="generate_from_source">Genereren uit gegevensbron</string>
+
+
+    <string name="beginTime">Begintijd</string>
+    <string name="endTime">Eindtijd</string>
+    <string name="content">Inhoud</string>
+    <string name="wifi_ssid">Wifi-naam (SSID)</string>
+    <string name="security">Beveiligingstype</string>
+    <string name="wifi_password">Wifi-wachtwoord</string>
+    <string name="create">Maken</string>
+    <string name="scan">Scannen</string>
+    <string name="history">Geschiedenis</string>
+    <string name="templates">Sjablonen</string>
+    <string name="fragmentName">FragmentName</string>
+    <string name="createQR">QR maken</string>
+    <string name="QRTEXT">QR-tekst</string>
+    <string name="QRCat">QR-categorie</string>
+    <string name="recipient">Ontvanger</string>
+    <string name="message">Bericht</string>
+    <string name="password">Wachtwoord</string>
+    <string name="hidden">Verborgen netwerk</string>
+    <string name="company">Bedrijf</string>
+    <string name="job">Functietitel</string>
+    <string name="address">Adres</string>
+    <string name="type_here_memo">Memo</string>
+    <string name="edit">Bewerken</string>
+    <string name="color">Kleur</string>
+    <string name="logo">Logo</string>
+    <string name="background">Achtergrond</string>
+    <string name="editor">Bewerker</string>
+    <string name="shareImg">Delen</string>
+    <string name="QRCode">QR-code</string>
+    <string name="resultScan">Resultatenscan</string>
+    <string name="vibrate">Trillen</string>
+    <string name="username">Voer gebruikersnaam in</string>
+    <string name="type_whatsapp">Voer nummer in</string>
+    <string name="scanned">Gescand\n succesvol</string>
+    <string name="localize_app">Lokalisatie</string>
+
+
+    <string name="md_choose_label">Kies</string>
+    <string name="choose_language">Taal kiezen</string>
+    <string name="loading_ad">Advertentie laden</string>
+    <string name="remove_customization">Weet je zeker dat je wilt afsluiten?</string>
+    <string name="twitter_url">Voer Twitter-url in</string>
+    <string name="linkdein_url">Voer Linkdein-url in</string>
+    <string name="enter_text_without_special_characters">Voer tekst in zonder speciale tekens</string>
+    <string name="enter_text_in_uppercase_without_special_characters">Tekst in hoofdletters zonder speciale tekens</string>
+    <string name="only_digits">Alleen cijfers</string>
+    <string name="only_even">Het aantal cijfers moet \n een even getal zijn</string>
+    <string name="seven_digit_with_checksum">7 cijfers met 1 controlesomcijfer</string>
+    <string name="twelve_digit_with_checksum">12 cijfers met 1 controlesomcijfer</string>
+    <string name="eleven_digit_with_checksum">11 cijfers met 1 controlesom</string>
+    <string name="barcode">Barcode</string>
+    <string name="product_name">Naam</string>
+    <string name="product_code">Voer productcode in</string>
+    <string name="product_price">Voer productprijs in</string>
+    <string name="book_name">Voer boeknaam in</string>
+    <string name="book_code">Voer boekcode in</string>
+    <string name="book_price">Voer boekprijs in</string>
+    <string name="watch_ad">Advertentie bekijken</string>
+    <string name="watch_ad_txt">Ontgrendelingssjablonen voor video\'s bekijken</string>
+    <string name="congratulations">Gefeliciteerd</string>
+    <string name="new_templates_unlocked">Nieuwe sjablonen ontgrendeld</string>
+    <string name="okay">Oké</string>
+    <string name="no_connection_found">Geen verbinding gevonden</string>
+    <string name="please_try_again_later">Probeer het later opnieuw</string>
+    <string name="app_name_print">QRCODE</string>
+    <string name="welcome_qr_txt">Welkom \nbij QRcode</string>
+
+
+    <string name="txt_generate">Tekst</string>
+    <string name="contact_generate">Contact</string>
+    <string name="url_generate">Url</string>
+    <string name="wifi_generate">Wifi</string>
+    <string name="email_generate">E-mail</string>
+    <string name="sms_generate">SMS</string>
+    <string name="location_generate">Locatie</string>
+    <string name="call_generate">Bel</string>
+    <string name="event_generate">Evenement</string>
+    <string name="txt_website">Website</string>
+    <string name="phone_generate">Telefoon</string>
+    <string name="scanned_history">Gescande geschiedenis</string>
+    <string name="created_history">Gemaakte geschiedenis</string>
+
+
+    <string name="ad_attribution">Advertentie</string>
+    <string name="adsTxt">Gesponsorde advertenties</string>
+    <string name="help">Hulp en feedback</string>
+    <string name="supported_codes">Ondersteunde codes</string>
+    <string name="tips_for_scanning">Scantips</string>
+    <string name="scanning_does_not_work">Scannen werkt niet</string>
+    <string name="scanning_low_budget">Scannen met goedkope telefoons</string>
+    <string name="scanned_not_work_txt"> Scannen met goedkope telefoons kan erg
+moeilijk of zelfs onmogelijk door lagere camera
+kwaliteit.\n\n
+Als u niet kunt scannen, probeer dan een foto te maken
+met je normale camera-app.\n\n
+Scan vervolgens de afbeelding met:</string>
+    <string name="scan_img">Afbeelding scannen</string>
+    <string name="good_luck">Veel succes</string>
+    <string name="QRImg">QR-afbeelding</string>
+    <string name="qrCodEMaker">QRCode Barcode Maker</string>
+    <string name="supportedQR">14+ ondersteunde QR-codetypen</string>
+    <string name="supportedBarCode">9+ ondersteunde barcodetypes</string>
+    <string name="readHelp">Lees de hulp van de app om veelvoorkomende \nfouten tijdens het scannen te vermijden</string>
+    <string name="name">Naam</string>
+    <string name="phone_number">Telefoonnummer</string>
+    <string name="email">E-mail</string>
+    <string name="network">Netwerknaam (SSID)</string>
+    <string name="recipient_email">E-mail ontvanger</string>
+    <string name="subject">Onderwerp</string>
+    <string name="body">Lichaam</string>
+    <string name="longitude">Lengtegraad</string>
+    <string name="latitude">Breedtegraad</string>
+    <string name="event_name">Evenementnaam</string>
+    <string name="location">Locatie</string>
+    <string name="description">Beschrijving</string>
+    <string name="price">Prijs</string>
+    <string name="book_name_1">Boeknaam</string>
+    <string name="book_code_1">Boekcode</string>
+    <string name="book_price_1">Boekprijs</string>
+    <string name="facebook_url">Voer de Facebook-URL in</string>
+    <string name="solid_color">Effen kleur</string>
+    <string name="dislike_it">Vind ik niet leuk</string>
+    <string name="rate_stars">Beoordeel mij \n5 sterren</string>
+    <string name="no_ads">Geen advertenties</string>
+    <string name="upgrade">Ga naar Premium</string>
+    <string name="pro_user">Word een professionele gebruiker</string>
+    <string name="premium">Premium</string>
+    <string name="basic">basis</string>
+    <string name="set_logo_in_center">Logo instellen in het midden</string>
+    <string name="one_time_purchase"><![CDATA[/Eenmalige aankoop & levenslange aanbieding]]></string>
+    <string name="agree_txt">Als je doorgaat, ga je akkoord met ons privacybeleid. Dit is een levenslange aanbieding en je kunt één keer kopen.</string>
+    <string name="skip">Overslaan</string>
+
+    <string name="follow_scan_tips">Volg de scantips</string>
+    <string name="restore">Restore</string>
+
+</resources>

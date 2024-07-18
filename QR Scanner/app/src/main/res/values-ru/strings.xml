@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="scanned">\ nОтсканировано успешно</string>
+    <string name="app_permission">Разрешения приложения</string>
+
+    <string name="read">Прочтите сохраненное изображение QR-кода, чтобы отсканировать QR-код</string>
+    <string name="write">Сохранить изображение QR-кода во внутренней памяти</string>
+    <string name="vibrate_per">Устройство вибрирует при сканировании</string>
+    <string name="camera">Сканировать QR-код</string>
+    <string name="wifi">Подключение, отключение от Wi-Fi, полный доступ к сети, просмотр сетевых подключений, просмотр подключений Wi-Fi</string>
+    <string name="contact">Получите контакты для генерации QR-кода с типом контакта</string>
+    <string name="account">Получите учетную запись для генерации QR-кода по электронной почте</string>
+
+    <string name="welcome_qr_txt">Добро пожаловать в \nQR-код</string>
+    <string name="create">Создайте</string>
+    <string name="scan">сканирование</string>
+    <string name="history">история</string>
+    <string name="templates">шаблоны</string>
+    <string name="menu_setting">настройки</string>
+
+
+    <string name="menu_generate">создать QR-код</string>
+    <string name="createQR">создать QR</string>
+    <string name="barcode">Штрих-код</string>
+
+    <string name="delete_message_item">Вы уверены, что хотите удалить этот элемент?</string>
+    <string name="delete_message_all">Вы уверены, что хотите очистить список?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="remove_customization">Вы уверены, что хотите выйти?</string>
+
+    <string name="txt_generate">текст</string>
+    <string name="contact_generate">контакт</string>
+    <string name="url_generate">Url</string>
+    <string name="wifi_generate">вай-фай</string>
+    <string name="email_generate">Электронное письмо</string>
+    <string name="sms_generate">SMS</string>
+    <string name="location_generate">Место расположения</string>
+    <string name="call_generate">вызов</string>
+    <string name="event_generate">Событие</string>
+    <string name="txt_website">Веб-сайт</string>
+    <string name="phone_generate">Телефон</string>
+
+    <string name="no_history">История пуста</string>
+    <string name="scanned_history">История сканирования</string>
+    <string name="created_history">История создания</string>
+
+    <string name="general">Общий</string>
+    <string name="privacy">Политика конфиденциальности</string>
+    <string name="settings_autofocus">Автофокус</string>
+    <string name="settings_vibrate">вибрировать</string>
+    <string name="settings_auto_links">Open URL automatically</string>
+    <string name="other">разное</string>
+    <string name="rate_us">оцените нас</string>
+    <string name="share_app">поделиться приложением</string>
+    <string name="localize_app">локализация</string>
+
+    <string name="type_here_text">Введите текст</string>
+    <string name="type_here_phone">введите номер телефона</string>
+    <string name="type_here_email">Введите адрес электронной почты</string>
+    <string name="type_here_wifi_ssid">Введите SSID/имя сети</string>
+    <string name="type_here_wifi_password">Введите пароль</string>
+
+    <string name="copied">Скопировано в буфер обмена.</string>
+    <string name="result">Результат</string>
+    <string name="scanned_result">Результат сканирования:</string>
+    <string name="scanned_type_qrcode">QR код:</string>
+    <string name="scanned_type_barcode">Штрих-код:</string>
+
+    <string name="ad_attribution">Объявление</string>
+    <string name="adsTxt">Рекламные объявления</string>
+    <string name="help">Справка и отзывы</string>
+    <string name="supported_codes">Поддерживаемые коды</string>
+    <string name="tips_for_scanning">Советы по сканированию</string>
+    <string name="scanning_does_not_work">Сканирование не работает</string>
+    <string name="scanning_low_budget">Сканирование с помощью недорогих телефонов</string>
+    <string name="scanned_not_work_txt"> Сканирование с помощью недорогих телефонов может быть очень
+сложно или даже невозможно из-за нижней камеры
+качество.\n\n
+Если у вас не получается отсканировать, попробуйте сделать фото
+с обычным приложением камеры.\n\n
+Затем отсканируйте изображение, используя:</string>
+    <string name="scan_img">Сканировать изображение</string>
+    <string name="good_luck">Удачи</string>
+    <string name="QRImg">QR-изображение</string>
+    <string name="beginTime">время начала</string>
+    <string name="endTime">Время окончания</string>
+    <string name="content">Содержание</string>
+    <string name="wifi_ssid">Имя Wi-Fi (SSID)</string>
+    <string name="security">Тип безопасности</string>
+    <string name="wifi_password">Пароль Wi-Fi</string>
+    <string name="fragmentName">FragmentName</string>
+    <string name="QRTEXT">Текст</string>
+    <string name="QRCat">QR-категория</string>
+    <string name="recipient">Получатель</string>
+    <string name="message">Сообщение</string>
+    <string name="password">Пароль</string>
+    <string name="hidden">Скрытая сеть</string>
+    <string name="company">Компания</string>
+    <string name="job">Должность</string>
+    <string name="address">Адрес</string>
+    <string name="type_here_memo">Примечание</string>
+    <string name="edit">Модификатор</string>
+    <string name="color">Цвет</string>
+    <string name="logo">Логотип</string>
+    <string name="background">Фон</string>
+    <string name="editor">редактор</string>
+    <string name="shareImg">Делиться</string>
+    <string name="QRCode">QR код</string>
+    <string name="resultScan">Анализ результатов</string>
+    <string name="vibrate">вибрировать</string>
+    <string name="username">Введите имя пользователя</string>
+    <string name="type_whatsapp">Введите число</string>
+    <string name="got_it">понял!</string>
+    <string name="name">Номинал</string>
+    <string name="phone_number">Телефонный номер</string>
+    <string name="email">Электронная почта</string>
+    <string name="network">Имя сети (SSID)</string>
+    <string name="recipient_email">Электронная почта получателя</string>
+    <string name="subject">Дело</string>
+    <string name="body">корпус</string>
+    <string name="longitude">Долгота</string>
+    <string name="latitude">Широта</string>
+    <string name="event_name">Название события</string>
+    <string name="location">Размещение</string>
+    <string name="description">Описание</string>
+
+    <string name="enter_text_without_special_characters">Введите текст без специальных символов</string>
+    <string name="enter_text_in_uppercase_without_special_characters">Текст в верхнем регистре без специальных символов</string>
+    <string name="only_digits">Только цифры</string>
+    <string name="only_even">Количество цифр должно быть \n четным числом</string>
+    <string name="seven_digit_with_checksum">7 цифр с 1 цифрой контрольной суммы</string>
+    <string name="twelve_digit_with_checksum">12 цифр с 1 цифрой контрольной суммы</string>
+    <string name="eleven_digit_with_checksum">11 цифр с 1 контрольной суммой</string>
+    <string name="product_name">Номинал</string>
+    <string name="product_code">Введите код продукта</string>
+    <string name="product_price">Введите цену продукта</string>
+    <string name="book_name">Введите название книги</string>
+    <string name="book_code">Введите код книги</string>
+    <string name="book_price">Введите цену книги</string>
+    <string name="price">Приз</string>
+    <string name="book_name_1">Название книги</string>
+    <string name="book_code_1">код книги</string>
+    <string name="book_price_1">книжная цена</string>
+    <string name="facebook_url">Введите URL-адрес Facebook</string>
+    <string name="result_facebook">Facebook:</string>
+    <string name="result_twitter">Twitter:</string>
+    <string name="result_instagram">Instagram:</string>
+    <string name="result_linkdein">Linkdein:</string>
+    <string name="result_whatsapp">Whatsapp:</string>
+    <string name="solid_color">Сплошной цвет</string>
+    <string name="watch_ad">Смотреть рекламу</string>
+    <string name="watch_ad_txt">Смотреть видео Шаблоны разблокировки</string>
+    <string name="dislike_it">он мне не нравится</string>
+    <string name="rate_stars">Оцените меня\n5 звезд</string>
+    <string name="rate_me_5">Оцените меня на 5 звезд</string>
+    <!--    <string name="hard_programmer">Je suis un programmeur travaillant très dur pour vous offrir la meilleure application gratuite. Votre avis 5 étoiles vaut plus que tout l\'argent. S'il vous plaît écrivez une belle critique dans Google Play pour m'encourager!</string>-->
+    <string name="congratulations">Поздравления</string>
+    <string name="new_templates_unlocked">Открыты новые модели</string>
+    <string name="okay">Хорошо</string>
+    <string name="no_connection_found">Связь не найдена</string>
+    <string name="please_try_again_later">Пожалуйста, повторите попытку позже</string>
+
+    <string name="qrCodEMaker">Создатель штрих-кода QR-кода</string>
+    <string name="supportedQR">Поддерживается более 14 типов QR-кодов</string>
+    <string name="supportedBarCode">Поддерживается более 9 типов штрих-кода</string>
+    <string name="readHelp">Прочтите справку приложения, чтобы избежать распространенных\nошибок при сканировании</string>
+    <string name="skip">Пропускать</string>
+
+    <string name="pro_user">Стать профессиональным пользователем</string>
+    <string name="premium">Премиум</string>
+    <string name="basic">базовый</string>
+    <string name="set_logo_in_center">Установить логотип по центру</string>
+    <string name="one_time_purchase">Одноразовая покупка и бессрочное предложение</string>
+    <string name="agree_txt">Продолжая, вы соглашаетесь с нашей Политикой конфиденциальности. Это бессрочное предложение, и вы можете купить его один раз.</string>
+
+    <string name="upgrade">Перейти Премиум</string>
+    <string name="follow_scan_tips">Следуйте советам по сканированию</string>
+    <string name="restore">Restore</string>
+</resources>

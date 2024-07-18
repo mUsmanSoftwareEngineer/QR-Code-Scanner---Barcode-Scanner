@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingStart="0dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:elevation="4dp"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/backButtonFromQR"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_scanner"
+            app:tint="@color/tt_black"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/open_in_map"
+            android:layout_toEndOf="@id/backButtonFromQR"
+            android:fontFamily="@font/roboto_regular"
+            android:textStyle="bold"
+            android:includeFontPadding="false"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:text="@string/edit"
+            android:gravity="center_vertical"
+            android:textColor="@color/tt_black"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/open_in_map"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/nextRelative"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:visibility="visible"
+            app:srcCompat="@drawable/location_scanner"
+            tools:ignore="ContentDescription" />
+
+        <RelativeLayout
+            android:id="@+id/nextRelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp">
+
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/round_buttons"
+                android:elevation="2dp"
+                android:fontFamily="@font/roboto_regular"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:includeFontPadding="false"
+                android:text="@string/save_one"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:textColor="@color/whiteLight"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20sdp"
+                android:visibility="visible"
+                >
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="W,4:4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/qr_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/zxing_transparent"
+                        android:visibility="visible"
+                        android:elevation="2dp"
+                        android:layout_margin="4dp"
+                        app:cardBackgroundColor="@color/whiteLight"
+                        app:cardCornerRadius="8dp">
+
+
+
+
+
+                        <RelativeLayout
+                            android:layout_margin="@dimen/_20sdp"
+                            android:id="@+id/share_qr_only"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/qrCard"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="2dp"
+                                android:elevation="2dp"
+                                app:cardCornerRadius="8dp">
+
+                                <ImageView
+                                    android:id="@+id/outputBitmap"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_qr_placeholder"
+                                    tools:ignore="ContentDescription" />
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/logoCard"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:visibility="gone"
+                                app:cardCornerRadius="2dp"
+                                app:cardUseCompatPadding="false">
+
+                                <ImageView
+                                    android:id="@+id/logoBitmap"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    tools:ignore="ContentDescription" />
+
+                            </androidx.cardview.widget.CardView>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/barcodeStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/barcodebackgroundBitmap"
+                    android:layout_width="800px"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription" />
+
+                <RelativeLayout
+                    android:id="@+id/barCodeRelative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/barcodeqrCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:elevation="4dp"
+                        android:layout_margin="5dp"
+                        app:cardCornerRadius="18dp">
+
+                        <ImageView
+                            android:id="@+id/barcodeBitmap"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/barcodelogoBitmap"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            tools:ignore="ContentDescription" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <include
+            layout="@layout/decorations_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_110sdp"
+             />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

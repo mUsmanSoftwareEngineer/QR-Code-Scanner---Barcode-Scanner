@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="afterDescendants"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/app_settings"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/tt_black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/mainLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/custom_input"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/vibrate"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switch_vibrate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="20dp"
+                        android:checked="true" />
+
+                    <!--                    <com.suke.widget.SwitchButton-->
+                    <!--                        android:id="@+id/switch_vibrate"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginTop="5dp"-->
+                    <!--                        android:layout_marginEnd="10dp"-->
+                    <!--                        android:checked="true"-->
+                    <!--                        android:text="@string/settings_vibrate"-->
+                    <!--                        android:textSize="18sp"-->
+                    <!--                        app:sb_checked_color="@color/darkMainColor" />-->
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/settings_autofocus"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switch_autofocus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="20dp"
+                        android:checked="true"
+                        android:textSize="18sp" />
+
+                    <!--                    <com.suke.widget.SwitchButton-->
+                    <!--                        android:id="@+id/switch_autofocus"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginTop="5dp"-->
+                    <!--                        android:layout_marginEnd="10dp"-->
+                    <!--                        android:checked="true"-->
+                    <!--                        android:text="@string/settings_autofocus"-->
+                    <!--                        android:textSize="18sp"-->
+                    <!--                        app:sb_checked_color="@color/darkMainColor" />-->
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/intro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/intro"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/tutorial"
+                        app:tint="@color/tt_black"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    android:visibility="gone"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+
+                <LinearLayout
+                    android:id="@+id/app_permission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/app_permission"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="32dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/info"
+                        app:tint="@color/tt_black"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/restorePurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/restore"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/crown"
+
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    android:visibility="gone"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/settings_auto_links"
+                        android:textAllCaps="false"
+                        android:textColor="@color/whiteLight"
+                        android:textSize="16sp" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switch_auto_url"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/settings_auto_links"
+                        android:textSize="18sp" />
+
+                    <!--                    <com.suke.widget.SwitchButton-->
+                    <!--                        android:id="@+id/switch_auto_url"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginTop="5dp"-->
+                    <!--                        android:layout_marginEnd="10dp"-->
+                    <!--                        android:text="@string/settings_auto_links"-->
+                    <!--                        android:textSize="18sp"-->
+                    <!--                        app:sb_checked_color="@color/darkMainColor" />-->
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    android:visibility="gone"
+                    app:srcCompat="@color/whiteLight"
+                    tools:ignore="ContentDescription" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/general"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/tt_black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/custom_input"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:visibility="visible">
+
+
+                <LinearLayout
+                    android:id="@+id/privacy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/privacy"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/privacy_icon"
+                        android:layout_width="65dp"
+                        android:layout_height="32dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/privacy_scanner"
+                        app:tint="@color/tt_black"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+                <!--            <LinearLayout-->
+                <!--                android:id="@+id/adsPersonlization"-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:clickable="true"-->
+                <!--                android:visibility="gone"-->
+                <!--                android:focusable="false"-->
+                <!--                android:foreground="?android:selectableItemBackground"-->
+                <!--                android:gravity="center"-->
+                <!--                android:layout_marginTop="10dp"-->
+                <!--                android:orientation="horizontal"-->
+                <!--                android:paddingEnd="20dp">-->
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:paddingLeft="15dp"-->
+                <!--                    android:paddingTop="12dp"-->
+                <!--                    android:paddingRight="15dp"-->
+                <!--                    android:paddingBottom="12dp"-->
+                <!--                    android:text="@string/adsPersonlization"-->
+                <!--                    android:textAllCaps="false"-->
+                <!--                    android:textColor="@color/whiteLight"-->
+                <!--                    android:textSize="16sp"-->
+                <!--                    android:paddingEnd="15dp"-->
+                <!--                    android:paddingStart="15dp" />-->
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/ads_icon"-->
+                <!--                    android:layout_width="65dp"-->
+                <!--                    android:layout_height="32dp"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    app:srcCompat="@drawable/ic_baseline_priority_high_24"-->
+                <!--                    app:tint="@color/whiteLight"-->
+                <!--                    />-->
+                <!--            </LinearLayout>-->
+
+                <!--            <ImageView-->
+                <!--                android:visibility="gone"-->
+                <!--                android:layout_marginTop="3dp"-->
+                <!--                android:id="@+id/lineAds"-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="0.5dp"-->
+                <!--                android:paddingLeft="15dp"-->
+                <!--                android:paddingRight="15dp"-->
+                <!--                app:srcCompat="@color/whiteLight"-->
+                <!--                android:paddingEnd="15dp"-->
+                <!--                android:paddingStart="15dp" />-->
+
+                <LinearLayout
+                    android:id="@+id/rate_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/rate_us"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/rate__icon"
+                        android:layout_width="65dp"
+                        android:layout_height="32dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/rate_us"
+                        app:tint="@color/tt_black"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/share_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/share_app"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/share_icon"
+                        android:layout_width="65dp"
+                        android:layout_height="32dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/share_scanner"
+                        app:tint="@color/tt_black"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/localize_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingEnd="20dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/localize_app"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/locale_icon"
+                        android:layout_width="65dp"
+                        android:layout_height="32dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/language"
+                        app:tint="@color/tt_black"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    android:visibility="gone"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/versions_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/app_version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/version"
+                        android:textAllCaps="false"
+                        android:textColor="@color/tt_black"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingRight="15dp"
+                    app:srcCompat="@color/tt_black"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

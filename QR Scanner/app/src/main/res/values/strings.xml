@@ -1,0 +1,345 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- TODO Change those Ad ID by your own Ad ID -->
+    <!-- app ad section real keys -->
+
+<!--        <string name="app_ad_id" translatable="false">ca-app-pub-4921234158243313~2302514494</string>-->
+
+<!--        &lt;!&ndash; App Open key &ndash;&gt;-->
+<!--        <string name="app_open_id" translatable="false">ca-app-pub-4921234158243313/6902629705</string>-->
+<!--        <string name="app_open_id_2" translatable="false">ca-app-pub-4921234158243313/4001134199</string>-->
+<!--        <string name="app_open_id_3" translatable="false">ca-app-pub-4921234158243313/5342136020</string>-->
+
+<!--        &lt;!&ndash; Banner Keys keys &ndash;&gt;-->
+<!--        <string name="banner_ad_home_main_sticky_unit_id" translatable="false">ca-app-pub-4921234158243313/1149214929</string>-->
+<!--        <string name="banner_ad_inline_unit_id" translatable="false">ca-app-pub-4921234158243313/5694371699</string>-->
+
+
+<!--        &lt;!&ndash; Interstitial keys &ndash;&gt;-->
+<!--        <string name="InterstitialOn">ca-app-pub-4921234158243313/4350093337</string>-->
+
+
+<!--        &lt;!&ndash; Native keys &ndash;&gt;-->
+<!--        <string name="native_ad_unit_id">ca-app-pub-4921234158243313/5095650059</string>-->
+
+<!--        &lt;!&ndash; Rewarded keys &ndash;&gt;-->
+<!--        <string name="rewarded">ca-app-pub-4921234158243313/6408731721</string>-->
+
+
+    <!--     end of the real keys -->
+
+
+    <!--     app ad test section -->
+<!--    <string name="app_ad_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+
+<!--    &lt;!&ndash; App Open key &ndash;&gt;-->
+<!--    <string name="app_open_id" translatable="false">ca-app-pub-3940256099942544/3419835294</string>-->
+<!--    <string name="app_open_id_2" translatable="false">ca-app-pub-3940256099942544/3419835294</string>-->
+<!--    <string name="app_open_id_3" translatable="false">ca-app-pub-3940256099942544/3419835294</string>-->
+
+<!--    &lt;!&ndash; Banner Keys keys &ndash;&gt;-->
+<!--    <string name="banner_ad_home_main_sticky_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="banner_ad_inline_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+
+<!--    &lt;!&ndash; Interstitial keys &ndash;&gt;-->
+<!--    <string name="InterstitialOn">ca-app-pub-3940256099942544/1033173712</string>-->
+
+<!--    &lt;!&ndash; Native keys &ndash;&gt;-->
+<!--    <string name="native_ad_unit_id">ca-app-pub-3940256099942544/2247696110</string>-->
+
+<!--    &lt;!&ndash; Rewarded keys &ndash;&gt;-->
+<!--    <string name="rewarded">ca-app-pub-3940256099942544/5224354917</string>-->
+
+    <!--     end of the ad section -->
+
+
+    <!-- TODO Change app name and splash text from here -->
+    <string name="app_name">QR Code Scanner</string>
+
+    <string name="menu_scan">Scan</string>
+    <string name="menu_generate">Create QR Code</string>
+    <string name="menu_history">History</string>
+    <string name="menu_setting">Setting</string>
+
+    <string name="rate_menu_title">Please rate the app</string>
+    <string name="rate_menu_message">Do you like the app?</string>
+    <string name="rate_menu_yes_btn">Yes</string>
+    <string name="rate_menu_no_btn">No</string>
+    <string name="rate_menu_maybe_btn">Rate later</string>
+
+    <string name="share">Install QR Scanner app from:</string>
+    <string name="tapAgain">Tap again to exit!</string>
+
+    <string name="allowCameraUse">Allow camera use</string>
+
+    <string name="permission_not_granted">Permission not granted!</string>
+
+    <string name="type_here_text">Type Text</string>
+    <string name="type_here_phone">Enter phone number</string>
+    <string name="type_here_email">Enter email</string>
+    <string name="type_here_wifi_ssid">Enter SSID/network name</string>
+    <string name="type_here_wifi_password">Enter password</string>
+
+    <string name="copied">Copied to clipboard.</string>
+    <string name="result">Result</string>
+    <string name="scanned_result">Scanned result:</string>
+    <string name="scanned_type_qrcode">QR code:</string>
+    <string name="scanned_type_barcode">Barcode:</string>
+
+    <string name="saved_to">Saved to:\n</string>
+    <string name="no_history">History empty</string>
+
+    <string name="action">Action</string>
+    <string name="date">Date</string>
+
+    <string name="result_text">Text</string>
+    <string name="result_url">URL</string>
+    <string name="result_youtube">YouTube</string>
+    <string name="result_phone">Phone</string>
+    <string name="result_email">Email</string>
+    <string name="result_wifi">Wi-Fi</string>
+    <string name="result_sms">SMS</string>
+    <string name="result_vcard">Contact</string>
+    <string name="result_geo">Geolocation</string>
+    <string name="result_event">Event</string>
+    <string name="result_facebook">Facebook</string>
+    <string name="result_twitter">Twitter</string>
+    <string name="result_instagram">Instagram</string>
+    <string name="result_linkdein">Linkdein</string>
+    <string name="result_whatsapp">Whatsapp</string>
+
+    <string name="delete_message_item">Are you sure you want to delete this item?</string>
+    <string name="delete_message_all">Are you sure you want to clear the list?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="error_restart_app">An error has occurred, please restart the app</string>
+    <string name="error_unexpected">An unexpected error has occurred</string>
+    <string name="error_file">File not found</string>
+    <string name="error_unknown">Unknown error</string>
+
+    <string name="settings_autofocus">Autofocus</string>
+    <string name="settings_vibrate">Vibrate</string>
+    <string name="settings_auto_links">Open URL automatically</string>
+    <string name="general">General Settings</string>
+    <string name="app_settings">App Settings</string>
+    <string name="other">Other</string>
+    <string name="rate_us">Rate us</string>
+    <string name="share_app">Share app</string>
+
+    <!--    <integer name="viewfinder_border_width">4</integer>-->
+    <!--    <integer name="viewfinder_border_length">60</integer>-->
+
+    <string name="version">Version 1.0.0</string>
+    <string name="privacy">Privacy Policy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_permission">App Permissions</string>
+    <string name="read_storage">1. Read_External_Storage:  </string>
+    <string name="read">Read access is required to retrieve saved QR code images for scanning purposes.</string>
+    <string name="write_storage">2. Write_External_Storage: </string>
+    <string name="write">Write access is necessary to save generated QR code images into the device\'s internal storage.</string>
+    <string name="vibrate_permissions">4. Vibrations: </string>
+    <string name="vibrate_per">Permission to vibrate the device upon successful QR code scanning.</string>
+    <string name="camera_permission">3. CAMERA: </string>
+    <string name="camera">Access to the device\'s camera is essential for scanning QR codes</string>
+    <string name="wifi_state_permission">5. ACCESS_WIFI_STATE: </string>
+    <string name="wifi">Access is needed to manage Wi-Fi connections, including connecting, disconnecting, and viewing network information.</string>
+    <string name="contacts_permissions">6. Contacts: </string>
+    <string name="contact">Access to contacts is required for creating QR codes containing contact information.</string>
+    <string name="account_permissions">7. Account:  </string>
+    <string name="account">Permission to access user accounts is necessary for generating QR codes with email addresses.</string>
+    <string name="got_it">Got it!</string>
+    <string name="rate_me_5">Rate this app 5 stars</string>
+    <string name="generate_from_source">Generate From Data Source</string>
+
+    <string name="beginTime">Begin Time</string>
+    <string name="endTime">End Time</string>
+    <string name="content">Content</string>
+    <string name="wifi_ssid">Wifi Name (SSID)</string>
+    <string name="security">Security Type</string>
+    <string name="wifi_password">Wifi Password</string>
+    <string name="create">Create</string>
+    <string name="scan">Scan</string>
+    <string name="history">History</string>
+    <string name="templates">Templates</string>
+    <string name="fragmentName">FragmentName</string>
+    <string name="createQR">Create QR</string>
+    <string name="createQRCode">Create QR Code</string>
+    <string name="createBarCode">Create Barcode</string>
+    <string name="QRTEXT">QR Text</string>
+    <string name="QRCat">QR Category</string>
+    <string name="recipient">Recipient</string>
+    <string name="message">Message</string>
+    <string name="password">Password</string>
+    <string name="hidden">Hidden Network</string>
+    <string name="company">Company</string>
+    <string name="job">Job Title</string>
+    <string name="address">Address</string>
+    <string name="type_here_memo">Memo</string>
+    <string name="edit">Edit</string>
+    <string name="save_qr_code">Save QR Code</string>
+    <string name="color">Color</string>
+    <string name="logo">Logo</string>
+    <string name="background">Background</string>
+    <string name="editor">Editor</string>
+    <string name="shareImg">Share</string>
+    <string name="QRCode">QR Code</string>
+    <string name="resultScan">Result Scan</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="username">Enter username</string>
+    <string name="type_whatsapp">Enter Number</string>
+    <string name="scanned">Scanned\n Successfully</string>
+    <string name="localize_app">Localization</string>
+
+    <string name="md_choose_label">Choose</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="loading_ad">Loading Ad</string>
+    <string name="remove_customization">Are you sure you want to exit?</string>
+    <string name="twitter_url">Enter Twitter Url</string>
+    <string name="linkdein_url">Enter Linkdein Url</string>
+    <string name="enter_text_without_special_characters">Enter Text Without Special Characters</string>
+    <string name="enter_text_in_uppercase_without_special_characters">Text In Uppercase Without Special Characters</string>
+    <string name="only_digits">Only Digits</string>
+    <string name="only_even">The number of digits must be \n an even number</string>
+    <string name="seven_digit_with_checksum">7 digits with 1 checksum digit</string>
+    <string name="twelve_digit_with_checksum">12 digits with 1 checksum digit</string>
+    <string name="eleven_digit_with_checksum">11 digit with 1 checksum</string>
+    <string name="barcode">Barcode</string>
+    <string name="product_name">Name</string>
+    <string name="product_code">Enter product code</string>
+    <string name="product_price">Enter product price</string>
+    <string name="book_name">Enter Book Name</string>
+    <string name="book_code">Enter Book Code</string>
+    <string name="book_price">Enter Book Price</string>
+    <string name="watch_ad">Watch Ad</string>
+    <string name="watch_ad_txt">Watch a Video Ad to unlock\nall the Templates for 5 Minutes</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="new_templates_unlocked">Templates Unlocked Successfully</string>
+    <string name="okay">Continue</string>
+    <string name="no_connection_found">No Connection Found</string>
+    <string name="please_try_again_later">Please Try Again Later</string>
+    <string name="app_name_print">QRCODE</string>
+    <string name="welcome_qr_txt">Welcome \nto QRcode</string>
+
+    <string name="txt_generate">Text</string>
+    <string name="contact_generate">Contact</string>
+    <string name="url_generate">Url</string>
+    <string name="wifi_generate">Wifi</string>
+    <string name="email_generate">Email</string>
+    <string name="sms_generate">SMS</string>
+    <string name="location_generate">Location</string>
+    <string name="call_generate">Call</string>
+    <string name="event_generate">Event</string>
+    <string name="txt_website">Website</string>
+    <string name="phone_generate">Phone</string>
+    <string name="scanned_history">Scanned History</string>
+    <string name="created_history">Created History</string>
+
+    <string name="ad_attribution">Ad</string>
+    <string name="adsTxt">Sponsored Ads</string>
+    <string name="help">Help and Feedback</string>
+    <string name="supported_codes">Supported Codes</string>
+    <string name="tips_for_scanning">Scanning Tips</string>
+    <string name="scanning_does_not_work">Scanning not working</string>
+    <string name="scanning_low_budget">Scanning with low-budget phones</string>
+    <string name="scanned_not_work_txt"> Scanning with low-budget phones can be very
+difficult or even impossible due to lower camera
+quality.\n\n
+If you are not able to scan, please try to take a photo
+with your normal camera app.\n\n
+Then scan the image using:</string>
+    <string name="scan_img">Scan Image</string>
+    <string name="good_luck">Good Luck</string>
+    <string name="QRImg">QR Image</string>
+    <string name="qrCodEMaker">QRCode Barcode \nGenerator</string>
+    <string name="supportedQR">14+ QR Code Types Supported</string>
+    <string name="supportedBarCode">9+ BarCode Types Supported</string>
+    <string name="readHelp">Read more scanning tips\n to avoid common mistakes</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="network">Network Name (SSID)</string>
+    <string name="recipient_email">Recipient Email</string>
+    <string name="subject">Subject</string>
+    <string name="body">Body</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="event_name">Event Name</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="book_name_1">Book Name</string>
+    <string name="book_code_1">Book Code</string>
+    <string name="book_price_1">Book Price</string>
+    <string name="facebook_url">Enter Facebook URL</string>
+    <string name="solid_color">Solid Color</string>
+    <string name="dislike_it">Dislike it</string>
+    <string name="rate_stars">Rate me\n5 stars</string>
+
+    <string name="rate_app">Please rate this application five stars on Play Store,\nyou will help us improve and\ndevelop this application in the best way</string>
+
+    <string name="no_ads">No Ads</string>
+    <string name="upgrade">Go Premium</string>
+    <string name="pro_user">Become a pro user</string>
+    <string name="premium">Premium</string>
+    <string name="basic">basic</string>
+    <string name="set_logo_in_center">Set Logo in Center</string>
+    <string name="one_time_purchase">One time purchase &amp; Life time offer</string>
+    <string name="agree_txt">By continuing you agree to our Privacy Policy. This is a life time offer and you can buy once.</string>
+    <string name="skip">Skip</string>
+    <string name="follow_scan_tips">Follow Scanning Tips</string>
+    <string name="sms_to">Sms to</string>
+    <string name="geo">Geo:</string>
+    <string name="username_only">Username</string>
+    <string name="group">Group</string>
+    <string name="page">Page</string>
+    <string name="profile">Profile</string>
+    <string name="feed">Feed</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="website">Website</string>
+    <string name="sponsered_ads">Sponsored Ads</string>
+    <string name="restore">Restore</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkdein">LinkedIn</string>
+    <string name="instagram">Instagram</string>
+    <string name="go_premium">Go Premium</string>
+    <string name="one_time">One Time Purchase</string>
+    <string name="what_is_glucose">What is Glucose?</string>
+    <string name="save_one">Save</string>
+    <string name="will_be_append_before_username">will be append before username</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="wpa_wpa2">wpa/wpa2</string>
+    <string name="wep">wep</string>
+    <string name="none">none</string>
+    <string name="or">or</string>
+    <string name="ok">OK</string>
+    <string name="no_nthanks">No, \nThanks</string>
+    <string name="save_qr_as">Save as:</string>
+    <string name="png">PNG</string>
+    <string name="pdf">PDF</string>
+    <string name="shareDone">Share</string>
+    <string name="cropShare"><![CDATA[Crop & Share]]></string>
+    <string name="fancyQR">Fancy QR</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="tips">Tips</string>
+    <string name="tap_to_exit">Tap to exit</string>
+
+    <string name="do_you_like">Do You Like Our App?</string>
+    <string name="work_hard">We are always work hard for better use experience and your feedback is valuable</string>
+    <string name="the_best">The best we can get is</string>
+    <string name="change_eyes">Change QR Eyes</string>
+    <string name="change_dots">Change QR Dots</string>
+    <string name="apply_gradients">Apply Gradients to QR</string>
+
+    <string name="custom_qr_code">Custom QR Code</string>
+    <string name="creating_in_a_moment">Creating in a Moment…</string>
+    <string name="crop">Crop</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="intro">Introduction</string>
+    <string name="hh_mm">HH:mm</string>
+    <string name="upgrade_to_pro">Upgrade to Pro</string>
+    <string name="us_country_code">+1</string>
+
+    <string name="pp_link">https://sites.google.com/view/qrcodescannerbarcodescanner</string>
+</resources>

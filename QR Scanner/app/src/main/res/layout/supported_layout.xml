@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_1">
+
+
+    <TextView
+        android:id="@+id/qr_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/QRTEXT"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/tt_black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/qr_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/qr_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/qrcode"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/correct_qr"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/qr_img"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:src="@drawable/correct"
+        tools:ignore="ContentDescription" />
+
+
+</RelativeLayout>

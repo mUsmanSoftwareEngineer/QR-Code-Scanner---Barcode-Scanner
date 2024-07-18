@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/eyesDotsRel"
+    android:clickable="true"
+    app:cardUseCompatPadding="false"
+    android:foreground="@drawable/ripple_bg"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/cardBg"
+    app:cardCornerRadius="@dimen/_4sdp"
+    android:layout_margin="3dp">
+
+
+    <ImageView
+       android:layout_gravity="center"
+        android:id="@+id/itemImg"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="fitXY"
+        android:padding="@dimen/_5sdp"
+        tools:ignore="ContentDescription"
+        app:tint="@color/white" />
+
+
+
+</androidx.cardview.widget.CardView>

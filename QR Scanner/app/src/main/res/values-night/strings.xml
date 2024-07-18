@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="network">Network Name (SSID)</string>
+    <string name="recipient_email">Recipient Email</string>
+    <string name="subject">Subject</string>
+    <string name="body">Body</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="event_name">Event Name</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="book_name_1">Book Name</string>
+    <string name="book_code_1">Book Code</string>
+    <string name="book_price_1">Book Price</string>
+    <string name="facebook_url">Enter Facebook URL</string>
+    <string name="solid_color">Solid Color</string>
+    <string name="dislike_it">Dislike it</string>
+    <string name="rate_stars">Rate me \n5 stars</string>
+    <string name="restore">Restore</string>
+</resources>
