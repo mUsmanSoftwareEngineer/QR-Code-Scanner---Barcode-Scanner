@@ -15,6 +15,7 @@ import android.graphics.Bitmap
 import android.graphics.Color
 import android.net.Uri
 import android.net.wifi.WifiManager
+import android.os.Build
 import android.os.Bundle
 import android.provider.CalendarContract
 import android.view.View
@@ -23,6 +24,9 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.app.ActivityCompat
@@ -45,6 +49,7 @@ import java.util.Objects
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
+@RequiresApi(Build.VERSION_CODES.TIRAMISU)
 class ResultActivity : AppCompatActivity() {
     var resultQrCodeImage: ImageView? = null
     private lateinit var arrayList: ArrayList<String>
@@ -135,6 +140,8 @@ class ResultActivity : AppCompatActivity() {
     private var action_btn3 = 0
     private var action_btn4 = 0
 
+    private lateinit var permissionsLauncher: ActivityResultLauncher<Array<String>>
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
@@ -219,6 +226,18 @@ class ResultActivity : AppCompatActivity() {
     }
 
     private fun initFunctionality() {
+
+        permissionsLauncher = registerForActivityResult(
+            ActivityResultContracts.RequestMultiplePermissions()
+        ) { permissions ->
+            val granted = permissions.entries.all { it.value }
+            if (granted) {
+                // All permissions granted
+            } else {
+                // Permissions denied
+            }
+        }
+
         val anim = ValueAnimator.ofFloat(1f, 1.2f)
         anim.setDuration(1000)
         anim.addUpdateListener { animation: ValueAnimator ->
@@ -1739,8 +1758,9 @@ class ResultActivity : AppCompatActivity() {
         codeGenerator.execute()
     }
 
+
     private fun saveAndShare(shouldShare: Boolean, input: String?, bitmap: Bitmap?) {
-        if (checkWritePermission()) {
+        if (checkWritePermission(mActivity,mContext!!)) {
             if (shouldShare) {
                 AppUtils.shareImage(mActivity, bitmap)
             } else {
@@ -1749,21 +1769,42 @@ class ResultActivity : AppCompatActivity() {
         }
     }
 
-    private fun checkWritePermission(): Boolean {
-        if (ContextCompat.checkSelfPermission(
-                mActivity!!,
-                Manifest.permission.WRITE_EXTERNAL_STORAGE
-            ) != PackageManager.PERMISSION_GRANTED
-        ) {
-            ActivityCompat.requestPermissions(
-                mActivity!!, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),
-                Constants.PERMISSION_REQ
-            )
+
+    private fun checkWritePermission(activity: Activity?, context: Context): Boolean {
+        activity ?: return false
+
+        // Define permissions for Android 14 and above
+        val mediaPermissions = arrayOf(
+            Manifest.permission.READ_MEDIA_IMAGES
+        )
+
+        // Check Android version to determine which permissions to use
+        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            // For Android 14 and above
+            val allMediaPermissionsGranted = mediaPermissions.all { permission ->
+                ContextCompat.checkSelfPermission(context, permission) == PackageManager.PERMISSION_GRANTED
+            }
+
+            if (allMediaPermissionsGranted) {
+                true
+            } else {
+                permissionsLauncher.launch(mediaPermissions)
+                false
+            }
         } else {
-            return true
+            // For Android versions below 14
+            if (ContextCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                true
+            } else {
+                ActivityCompat.requestPermissions(
+                    activity, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),
+                    Constants.PERMISSION_REQ
+                )
+                false
+            }
         }
-        return false
     }
+
 
     override fun onRequestPermissionsResult(
         requestCode: Int,

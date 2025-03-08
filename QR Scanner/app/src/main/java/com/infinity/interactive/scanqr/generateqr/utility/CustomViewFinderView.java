@@ -28,7 +28,7 @@ public class CustomViewFinderView extends ViewFinderView {
 
     private void init() {
         int colorAttr;
-        colorAttr = R.attr.colorPrimary;
+        colorAttr = R.color.colorPrimary;
         TypedValue typedValue = new TypedValue();
         mContext.getTheme().resolveAttribute(colorAttr, typedValue, true);
         setSquareViewFinder(true);

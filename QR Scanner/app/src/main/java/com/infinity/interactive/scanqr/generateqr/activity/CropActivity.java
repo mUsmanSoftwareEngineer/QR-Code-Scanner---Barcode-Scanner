@@ -22,7 +22,7 @@ import com.google.zxing.RGBLuminanceSource;
 import com.google.zxing.Reader;
 import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
-import com.isseiaoki.simplecropview.CropImageView;
+
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -43,7 +43,7 @@ public class CropActivity extends AppCompatActivity {
     Context mContext;
     String resultStr, type_of_code;
     Activity mActivity;
-    CropImageView mCropView;
+//    CropImageView mCropView;
     ImageView backCrop;
 
     Result result = null;
@@ -75,41 +75,41 @@ public class CropActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                if (mCropView.getCroppedBitmap() != null) {
-
-                    result = parseInfoFromBitmap(mCropView.getCroppedBitmap());
-                    if (result != null) {
-                        try {
-
-                            type_of_code = (result.getBarcodeFormat().toString());
-                            Log.d("check0075", type_of_code + "");
-                            if (type_of_code.contains("AZTEC") || type_of_code.contains("PDF_417") ||
-                                    type_of_code.contains("DATA_MATRIX") || type_of_code.contains("QR_CODE")) {
-                                resultStr = result.getText();//qr_code
-
-                                buttonDone.setEnabled(true);
-
-                            } else if (type_of_code.contains("CODE_39") || type_of_code.contains("CODE_128") || type_of_code.contains("CODABAR") || type_of_code.contains("CODE_93") || type_of_code.contains("EAN_8") || type_of_code.contains("EAN_13") || type_of_code.contains("ITF") || type_of_code.contains("UPC_A") || type_of_code.contains("UPC_E") || type_of_code.contains("UPC_EAN_EXTENSION") || type_of_code.contains("RSS_14") || type_of_code.contains("RSS_EXPANDED") || type_of_code.contains("MAXICODE")) {
-                                resultStr = "barCodeType:" + type_of_code + ";" + "barcode:" + result.getText() + ";";//barcode
-
-                                buttonDone.setEnabled(true);
-
-                            }
-
-                            savingResults(resultStr);
-                        } catch (Exception e) {
-                            finish();
-                            e.printStackTrace();
-                        }
-//                        detected.setVisibility(View.VISIBLE);
-//                        buttonDone.setEnabled(true);
-                    } else {
-                        finish();
-//                        detected.setVisibility(View.GONE);
-//                        buttonDone.setEnabled(false);
-                    }
-
-                }
+//                if (mCropView.getCroppedBitmap() != null) {
+//
+//                    result = parseInfoFromBitmap(mCropView.getCroppedBitmap());
+//                    if (result != null) {
+//                        try {
+//
+//                            type_of_code = (result.getBarcodeFormat().toString());
+//                            Log.d("check0075", type_of_code + "");
+//                            if (type_of_code.contains("AZTEC") || type_of_code.contains("PDF_417") ||
+//                                    type_of_code.contains("DATA_MATRIX") || type_of_code.contains("QR_CODE")) {
+//                                resultStr = result.getText();//qr_code
+//
+//                                buttonDone.setEnabled(true);
+//
+//                            } else if (type_of_code.contains("CODE_39") || type_of_code.contains("CODE_128") || type_of_code.contains("CODABAR") || type_of_code.contains("CODE_93") || type_of_code.contains("EAN_8") || type_of_code.contains("EAN_13") || type_of_code.contains("ITF") || type_of_code.contains("UPC_A") || type_of_code.contains("UPC_E") || type_of_code.contains("UPC_EAN_EXTENSION") || type_of_code.contains("RSS_14") || type_of_code.contains("RSS_EXPANDED") || type_of_code.contains("MAXICODE")) {
+//                                resultStr = "barCodeType:" + type_of_code + ";" + "barcode:" + result.getText() + ";";//barcode
+//
+//                                buttonDone.setEnabled(true);
+//
+//                            }
+//
+//                            savingResults(resultStr);
+//                        } catch (Exception e) {
+//                            finish();
+//                            e.printStackTrace();
+//                        }
+////                        detected.setVisibility(View.VISIBLE);
+////                        buttonDone.setEnabled(true);
+//                    } else {
+//                        finish();
+////                        detected.setVisibility(View.GONE);
+////                        buttonDone.setEnabled(false);
+//                    }
+//
+//                }
 
 
             }
@@ -319,10 +319,10 @@ public class CropActivity extends AppCompatActivity {
     private void initFunctionality() {
 
 
-        mCropView.setCropMode(CropImageView.CropMode.FREE);
+//        mCropView.setCropMode(CropImageView.CropMode.FREE);
 
         if (Constants.galleryBitmap != null) {
-            mCropView.setImageBitmap(Constants.galleryBitmap);
+//            mCropView.setImageBitmap(Constants.galleryBitmap);
 //            mCropView.setImageBitmap(Constants.galleryBitmap);
 //            cropImageView.setImageBitmap(Constants.galleryBitmap);
         }
@@ -436,7 +436,7 @@ public class CropActivity extends AppCompatActivity {
     }
 
     private void initViews() {
-        mCropView = findViewById(R.id.crop_image_menu_crop);
+//        mCropView = findViewById(R.id.crop_image_menu_crop);
         buttonDone = findViewById(R.id.buttonDone);
         backCrop = findViewById(R.id.backButtonFromQR);
     }

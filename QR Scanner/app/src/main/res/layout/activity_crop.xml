@@ -56,28 +56,28 @@
 
     </RelativeLayout>
 
-    <com.isseiaoki.simplecropview.CropImageView
-        android:id="@+id/crop_image_menu_crop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/crop"
-        android:layout_centerInParent="true"
-        android:paddingLeft="16dp"
-        android:paddingTop="16dp"
-        android:paddingRight="16dp"
-        android:paddingBottom="16dp"
-        custom:scv_crop_mode="fit_image"
-        custom:scv_frame_color="@color/colorAccent"
-        custom:scv_frame_stroke_weight="1dp"
-        custom:scv_guide_color="@color/darkMainColor"
-        custom:scv_guide_show_mode="show_always"
-        custom:scv_guide_stroke_weight="1dp"
-        custom:scv_handle_color="@color/darkMainColor"
-        custom:scv_handle_show_mode="show_always"
-        custom:scv_handle_size="14dp"
-        custom:scv_min_frame_size="50dp"
-        custom:scv_touch_padding="8dp"
-        tools:ignore="RedundantNamespace" />
+<!--    <com.isseiaoki.simplecropview.CropImageView-->
+<!--        android:id="@+id/crop_image_menu_crop"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@+id/crop"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:paddingLeft="16dp"-->
+<!--        android:paddingTop="16dp"-->
+<!--        android:paddingRight="16dp"-->
+<!--        android:paddingBottom="16dp"-->
+<!--        custom:scv_crop_mode="fit_image"-->
+<!--        custom:scv_frame_color="@color/colorAccent"-->
+<!--        custom:scv_frame_stroke_weight="1dp"-->
+<!--        custom:scv_guide_color="@color/darkMainColor"-->
+<!--        custom:scv_guide_show_mode="show_always"-->
+<!--        custom:scv_guide_stroke_weight="1dp"-->
+<!--        custom:scv_handle_color="@color/darkMainColor"-->
+<!--        custom:scv_handle_show_mode="show_always"-->
+<!--        custom:scv_handle_size="14dp"-->
+<!--        custom:scv_min_frame_size="50dp"-->
+<!--        custom:scv_touch_padding="8dp"-->
+<!--        tools:ignore="RedundantNamespace" />-->
 
 
     <RelativeLayout

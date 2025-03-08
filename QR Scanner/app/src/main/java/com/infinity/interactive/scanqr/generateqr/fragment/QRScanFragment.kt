@@ -83,6 +83,7 @@ class QRScanFragment : Fragment(), ZXingScannerView.ResultHandler {
         setupFormats()
     }
 
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -114,6 +115,7 @@ class QRScanFragment : Fragment(), ZXingScannerView.ResultHandler {
         initConfigs()
     }
 
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     private fun initListener() {
         flash!!.setOnClickListener { toggleFlash() }
         gallery!!.setOnClickListener { //                if(checkWritePermission()){

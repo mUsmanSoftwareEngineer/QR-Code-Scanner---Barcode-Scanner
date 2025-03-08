@@ -11,6 +11,7 @@ import android.graphics.Bitmap
 import android.graphics.Color
 import android.graphics.Matrix
 import android.graphics.drawable.ColorDrawable
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -26,9 +27,13 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.app.ActivityCompat
+import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.core.content.ContextCompat
 import com.itextpdf.text.Document
 import com.itextpdf.text.Image
@@ -48,7 +53,7 @@ import java.util.Date
 import java.util.Objects
 import java.util.regex.Matcher
 import java.util.regex.Pattern
-
+@RequiresApi(Build.VERSION_CODES.TIRAMISU)
 class SaveQRCode() : AppCompatActivity() {
     var shareRel: RelativeLayout? = null
     var saveRel: RelativeLayout? = null
@@ -98,6 +103,8 @@ class SaveQRCode() : AppCompatActivity() {
     //View Binding
     private lateinit var editQrcodeBinding: ActivityEditQrcodeBinding
 
+    private lateinit var permissionsLauncher: ActivityResultLauncher<Array<String>>
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         editQrcodeBinding = ActivityEditQrcodeBinding.inflate(layoutInflater)
@@ -129,7 +136,7 @@ class SaveQRCode() : AppCompatActivity() {
     private fun initListener() {
         shareRel!!.setOnClickListener { v: View? ->
             shouldShare = true
-            if (checkWritePermission()) {
+            if (checkWritePermission(activity,mContext!!)) {
                 AppUtils.shareImage(this@SaveQRCode, Constants.finalBitmap)
 
 //                Intent share = new Intent(this, ShareAndCrop.class);
@@ -139,7 +146,7 @@ class SaveQRCode() : AppCompatActivity() {
         saveRel!!.setOnClickListener { v: View? ->
             shouldShare = false
             shouldSave = true
-            if (checkWritePermission()) {
+            if (checkWritePermission(activity,mContext!!)) {
                 AppUtils.saveImage(activity, QRCodeGeneratorScanner.inputStr, Constants.finalBitmap)
             }
         }
@@ -217,7 +224,7 @@ class SaveQRCode() : AppCompatActivity() {
         }
 
         editQrcodeBinding.printQrCode.setOnClickListener {
-            if (checkWritePermission()) {
+            if (checkWritePermission(activity,mContext!!)) {
                 try {
                     if (Common.getAppPath(
                             applicationContext
@@ -254,7 +261,7 @@ class SaveQRCode() : AppCompatActivity() {
             savePNG.setOnClickListener(View.OnClickListener {
                 shouldSave = true
                 dialog!!.dismiss()
-                if (checkWritePermission()) {
+                if (checkWritePermission(activity,mContext!!)) {
                     AppUtils.saveImage(
                         activity,
                         QRCodeGeneratorScanner.inputStr,
@@ -267,7 +274,7 @@ class SaveQRCode() : AppCompatActivity() {
                     Constants.isSelectingFile = true
                     shouldSave = false
                     dialog!!.dismiss()
-                    if (checkWritePermission()) {
+                    if (checkWritePermission(activity,mContext!!)) {
                         try {
                             if (Common.getAppPath(
                                     applicationContext
@@ -407,23 +414,55 @@ class SaveQRCode() : AppCompatActivity() {
         }
     }
 
-    private fun checkWritePermission(): Boolean {
-        if ((ContextCompat.checkSelfPermission(
-                (activity)!!,
-                Manifest.permission.WRITE_EXTERNAL_STORAGE
-            ) != PackageManager.PERMISSION_GRANTED)
-        ) {
-            ActivityCompat.requestPermissions(
-                (activity)!!, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),
-                Constants.PERMISSION_REQ
-            )
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
+    private fun checkWritePermission(activity: Activity?, context: Context): Boolean {
+        activity ?: return false
+
+        // Define permissions for Android 14 and above
+        val mediaPermissions = arrayOf(
+            Manifest.permission.READ_MEDIA_IMAGES
+        )
+
+        // Check Android version to determine which permissions to use
+        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            // For Android 14 and above
+            val allMediaPermissionsGranted = mediaPermissions.all { permission ->
+                ContextCompat.checkSelfPermission(context, permission) == PackageManager.PERMISSION_GRANTED
+            }
+
+            if (allMediaPermissionsGranted) {
+                true
+            } else {
+                permissionsLauncher.launch(mediaPermissions)
+                false
+            }
         } else {
-            return true
+            // For Android versions below 14
+            if (ContextCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                true
+            } else {
+                ActivityCompat.requestPermissions(
+                    activity, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),
+                    Constants.PERMISSION_REQ
+                )
+                false
+            }
         }
-        return false
     }
 
     private fun initFunctionality() {
+
+        permissionsLauncher = registerForActivityResult(
+            ActivityResultContracts.RequestMultiplePermissions()
+        ) { permissions ->
+            val granted = permissions.entries.all { it.value }
+            if (granted) {
+                // All permissions granted
+            } else {
+                // Permissions denied
+            }
+        }
+
         dialog = Dialog(this)
         val paramsCreateDoing = Bundle()
         paramsCreateDoing.putString("QRCompleted", "1")

@@ -1,18 +1,37 @@
 {
-  "version": 2,
+  "version": 3,
   "artifactType": {
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "scanner.app.scan.qrcode.reader",
+  "applicationId": "com.infinity.interactive.scanqr.generateqr",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 5,
-      "versionName": "1.0.4",
-      "outputFile": "app-release.apk"
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "outputFile": "QR_Code_Scanner_VN_1.0.0_VC_1_ Time_ 04-08-2024-release.apk"
     }
-  ]
+  ],
+  "elementType": "File",
+  "baselineProfiles": [
+    {
+      "minApi": 28,
+      "maxApi": 30,
+      "baselineProfiles": [
+        "baselineProfiles/1/QR_Code_Scanner_VN_1.0.0_VC_1_ Time_ 04-08-2024-release.dm"
+      ]
+    },
+    {
+      "minApi": 31,
+      "maxApi": 2147483647,
+      "baselineProfiles": [
+        "baselineProfiles/0/QR_Code_Scanner_VN_1.0.0_VC_1_ Time_ 04-08-2024-release.dm"
+      ]
+    }
+  ],
+  "minSdkVersionForDexing": 24
 }
